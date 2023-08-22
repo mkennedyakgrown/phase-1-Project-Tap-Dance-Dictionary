@@ -72,7 +72,6 @@ function handleSearch(e) {
     fetch(database)
     .then(res => res.json())
     .then(json => {
-        debugger;
         const flatDb = flattenDb(json);
         let filteredMoves;
         if (searchForm.id === 'name-form') {
@@ -152,7 +151,7 @@ function makePostJson(userName, comboName, combination) {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            'name': userName,
+            'userName': userName,
             'comboName': comboName,
             'combination': combination
         })
