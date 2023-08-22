@@ -294,20 +294,20 @@
           "name": "Faluffalo",
           "altNames": "",
           "counts": [
-            "BONUS STEP"
+            "a1e&a**2"
           ],
-          "countsNumber": 9,
-          "sounds": "a1e&a**2",
+          "countsNumber": 8,
+          "sounds": "(cross foot in front) flap SHUFFLE single-pullback-end-with-a-flap FLAP",
           "altMoves": []
         },
         {
           "name": "Maddalo",
           "altNames": "",
           "counts": [
-            "BONUS STEP"
+            "1e&a*2"
           ],
-          "countsNumber": 9,
-          "sounds": "1e&a*2",
+          "countsNumber": 6,
+          "sounds": "(cross foot in front) step SHUFFLE pullback-to-toe STEP",
           "altMoves": []
         }
       ],
@@ -1483,10 +1483,10 @@
           "name": "Click Pullback",
           "altNames": "",
           "counts": [
-            "BONUS STEP"
+            "&a1"
           ],
-          "countsNumber": 9,
-          "sounds": "&a1",
+          "countsNumber": 3,
+          "sounds": "pull both feet into the air, click the inside of each foot together, land both feet on the floor at the same time",
           "altMoves": []
         },
         {
@@ -1599,10 +1599,10 @@
           "name": "Teeler",
           "altNames": "",
           "counts": [
-            "BONUS STEP"
+            "1e&a***2"
           ],
-          "countsNumber": 9,
-          "sounds": "1e&a***2",
+          "countsNumber": 8,
+          "sounds": "pull PULL toe TOE dig DIG step STEP",
           "altMoves": []
         },
         {
@@ -2360,10 +2360,10 @@
           "name": "Sh-sh-sh-shuffle",
           "altNames": "",
           "counts": [
-            "BONUS STEP"
+            "1e&a2e&a3"
           ],
           "countsNumber": 9,
-          "sounds": "1e&a2e&a3",
+          "sounds": "STEP shuffle (as you shuffle push off the left foot into the air) shuffle shuffle (while in the air - yeah I know) step STEP",
           "altMoves": []
         },
         {
@@ -3407,10 +3407,10 @@
           "name": "Five Count Single Wing",
           "altNames": "",
           "counts": [
-            "BONUS STEP"
+            "1e&a2"
           ],
           "countsNumber": 9,
-          "sounds": "1e&a2",
+          "sounds": "start on the balls of the feet, scrape your feet outwards and into the air, then spank them in, then brush them out again, then spank them in again, then land on the balls of the feet",
           "altMoves": []
         },
         {
