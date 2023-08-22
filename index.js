@@ -107,3 +107,12 @@ function clearSection(e) {
         e.removeChild(e.firstChild);
     }
 }
+
+function handleAddStep(e) {
+    const move = e.target.parentNode.cloneNode(true);
+    move.setAttribute('class', 'parentMove');
+    const btn = move.firstChild;
+    btn.innerText = 'X';
+
+    choreoList.appendChild(move);
+}
