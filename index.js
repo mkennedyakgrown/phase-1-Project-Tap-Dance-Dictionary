@@ -64,7 +64,12 @@ function handleSearch(e) {
     .then(res => res.json())
     .then(json => {
         const flatDb = flattenDb(json);
-        const filteredMoves = flatDb.filter(move => searchByName(move, searchText));
+        let filteredMoves;
+        if (searchForm.name === 'search-by-name') {
+            filteredMoves = flatDb.filter(move => searchByName(move, searchText));
+        } else if (searchForm.name === 'search-by-sounds') {
+            filteredMoves = flatDb.filter(move => searchBySounds(move, searchText));
+        };
         clearSection(movesList);
         filteredMoves.forEach(move => loadOneTapMove(move));
     });
@@ -74,6 +79,21 @@ function handleSearch(e) {
 
 function searchByName(e, searchText) {
     return e.name.toLowerCase().includes(searchText.toLowerCase());
+}
+
+function searchBySounds(e, searchText) {
+    return parseInt(e.countsNumber) === parseInt(searchText);
+}
+
+function flattenDb(db) {
+    const newDb = [];
+    db.forEach(move => {
+        newDb.push(move);
+        if (move.altMoves !== []) {
+            move.altMoves.forEach(alt => newDb.push(alt));
+        };
+    });
+    return newDb;
 }
 
 function clearSection(e) {
