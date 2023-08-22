@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     loadTapMoves(database);
     document.getElementById('name-form').addEventListener('submit', handleSearch);
     document.getElementById('sounds-form').addEventListener('submit', handleSearch);
+    document.getElementById('save-choreo').addEventListener('submit', handleSave);
 })
 
 function loadTapMoves(url) {
@@ -121,4 +122,13 @@ function handleAddStep(e) {
 function handleRemoveStep(e) {
     const move = e.target.parentNode;
     choreoList.removeChild(move);
+}
+
+function handleSave(e) {
+    e.preventDefault();
+
+    const userName = e.target.saveName.value;
+    console.log(userName);
+    
+    e.target.reset();
 }
