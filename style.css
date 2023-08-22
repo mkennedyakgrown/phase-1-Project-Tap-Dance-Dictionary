@@ -2,3 +2,76 @@ body {
     margin: 0;
     font-family: Arial, Arial, Helvetica, sans-serif;
 }
+
+/* Side Navigation */
+.sidenav {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Content Styling */
+.content {
+    margin-left: 400px;
+    padding-left: 20px;
+}
+
+.searchInput {
+    display:block;
+}
+
+/* Moves List styling */
+.tapMove {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.name {
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.altNames {
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.counts {
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.sounds {
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+.childMove {
+    padding-left: 20px;
+}
