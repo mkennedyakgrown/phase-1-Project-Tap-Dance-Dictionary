@@ -3,6 +3,8 @@ const movesList = document.getElementById('moves-list');
 
 document.addEventListener('DOMContentLoaded', function () {
     loadTapMoves(database);
+    document.getElementById('name-form').addEventListener('submit', handleSearch);
+    document.getElementById('sounds-form').addEventListener('submit', handleSearch);
 })
 
 function loadTapMoves(url) {
@@ -51,4 +53,31 @@ function parseList(names, separator) {
     let namesString = names.toString();
     namesString = namesString.replaceAll(',', separator);
     return namesString;
+}
+
+function handleSearch(e) {
+    e.preventDefault();
+    const searchForm = e.target;
+    const searchText = searchForm.querySelector('.searchInput').value;
+    
+    fetch(database)
+    .then(res => res.json())
+    .then(json => {
+        const flatDb = flattenDb(json);
+        const filteredMoves = flatDb.filter(move => searchByName(move, searchText));
+        clearSection(movesList);
+        filteredMoves.forEach(move => loadOneTapMove(move));
+    });
+
+    searchForm.reset();
+}
+
+function searchByName(e, searchText) {
+    return e.name.toLowerCase().includes(searchText.toLowerCase());
+}
+
+function clearSection(e) {
+    while (e.firstChild) {
+        e.removeChild(e.firstChild);
+    }
 }
