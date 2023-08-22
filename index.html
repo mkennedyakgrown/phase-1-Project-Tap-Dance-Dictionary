@@ -11,6 +11,17 @@
 
     <body>
         <div class="content">
+            <label for="search-tap-moves">Search Tap Moves</label>
+            <form id="name-form" name="search-by-name">
+                <label for="search-by-name">Search By Name</label>
+                <input type="text" name="search-by-name" class="searchInput" id="name">
+                <input type="submit" class="searchInput" id="nameButton" value="Search">
+            </form>
+            <form id="sounds-form" name="search-by-sounds">
+                <label for="search-by-sounds">Search by Number of Sounds</label>
+                <input type="number" name="search-by-sounds" class="searchInput" id="sounds">
+                <input type="submit" class="searchInput" id="soundsButton" value="Search">
+            </form>
             <ul id="moves-list">
             </ul>
         </div>
