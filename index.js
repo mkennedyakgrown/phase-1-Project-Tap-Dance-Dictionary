@@ -1,14 +1,16 @@
 const database = 'http://localhost:3000/moves';
-const savesDb = 'http://localhost:3000/saves';
+const usersDb = 'http://localhost:3000/users';
 const movesList = document.getElementById('moves-list');
+const userList = document.getElementById('user-list');
+const loadChoreoList = document.getElementById('load-choreo');
 const choreoList = document.getElementById('choreo-list');
 
-document.addEventListener('DOMContentLoaded', function () {
-    loadTapMoves(database);
-    document.getElementById('name-form').addEventListener('submit', handleSearch);
-    document.getElementById('sounds-form').addEventListener('submit', handleSearch);
-    document.getElementById('save-choreo').addEventListener('submit', handleSave);
-})
+loadTapMoves(database);
+loadUserList();
+document.getElementById('name-form').addEventListener('submit', handleSearch);
+document.getElementById('sounds-form').addEventListener('submit', handleSearch);
+document.getElementById('save-choreo').addEventListener('submit', handleSave);
+userList.addEventListener('change', handleSelectUser);
 
 function loadTapMoves(url) {
     fetch(url)
@@ -133,7 +135,7 @@ function handleSave(e) {
     const comboName = e.target.comboName.value;
     const combination = getCombination(e.target.parentNode.querySelector('#choreo-list').children);
 
-    fetch(savesDb, makePostJson(userName, comboName, combination))
+    fetch(usersDb, makePostJson(userName, comboName, combination))
     .then(loadCombinationList());
     
     e.target.reset();
@@ -166,4 +168,24 @@ function getCombination(comboList) {
         };
     };
     return comboArray;
+}
+
+function loadUserList() {
+    fetch(usersDb)
+    .then(res => res.json())
+    .then(json => {
+        json.forEach(user => loadOneUser(user));
+    });
+}
+
+function loadOneUser(user) {
+    const currUser = document.createElement('option');
+    currUser.value = user.name;
+    currUser.textContent = user.name;
+    userList.appendChild(currUser);
+
+}
+
+function handleSelectUser(e) {
+    console.log(`user ${e.target.value} selected`);
 }

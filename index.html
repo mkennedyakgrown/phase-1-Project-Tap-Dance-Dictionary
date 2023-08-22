@@ -13,16 +13,25 @@
 
         <div class="sidenav">
             <h2>Choreography List</h2>
-            <form id="save-choreo">
-                <label for="save-name">Save Your Combination</label>
-                <input type="text" id="saveName" name="save-name" class="save-input" placeholder="Your Name">
-                <input type="text" id="comboName" name="combo-name" class="save-input" placeholder="Combination Name">
-                <input type="submit" class="saveInput" value="Save">
+            <form id="choose-user">
+                <label for="user-list">Choose Username</label>
+                <select id="user-list" name="user-list">
+                    <option value="Select a User">Select a User</option>
+                </select>
+                <div>
+                    <input type="text" id="saveName" name="save-name" class="save-input" placeholder="Your Name">
+                    <input type="submit" class="userInput" value="Create New User">
+                </div>
             </form>
             <form id="load-choreo">
                 <label for="name-list">Load a Combination</label>
                 <select id="nameList" name="name-list">
                 </select>
+            </form>
+            <form id="save-choreo">
+                <label for="save-name">Save Your Combination</label>
+                <input type="text" id="comboName" name="combo-name" class="save-input" placeholder="Combination Name">
+                <input type="submit" class="saveInput" value="Save">
             </form>
             <ul id="choreo-list">
             </ul>

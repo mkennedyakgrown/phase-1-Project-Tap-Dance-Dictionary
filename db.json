@@ -3478,8 +3478,15 @@
       "id": 48
     }
   ],
-  "saves": [
-  ],
   "users": [
+    {
+      "name": "Matthew",
+      "combinations": [
+        {
+          "name": "Quickie Shuffles",
+          "moves": ["SHUFFLE", "SHUFFLE", "SCUFFLE", "SHUFFLE"]
+        }
+      ]
+    }
   ]
 }
