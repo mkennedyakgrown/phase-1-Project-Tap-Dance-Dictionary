@@ -113,6 +113,12 @@ function handleAddStep(e) {
     move.setAttribute('class', 'parentMove');
     const btn = move.firstChild;
     btn.innerText = 'X';
+    btn.addEventListener('click', handleRemoveStep);
 
     choreoList.appendChild(move);
+}
+
+function handleRemoveStep(e) {
+    const move = e.target.parentNode;
+    choreoList.removeChild(move);
 }
