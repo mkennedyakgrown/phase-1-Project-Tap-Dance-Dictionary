@@ -1,4 +1,5 @@
 const database = 'http://localhost:3000/moves';
+const savesDb = 'http://localhost:3000/saves';
 const movesList = document.getElementById('moves-list');
 const choreoList = document.getElementById('choreo-list');
 
@@ -35,6 +36,7 @@ function loadOneTapMove(move, isParent = true) {
     counts.innerText = ` - ${parseList(move.counts, ' or ')}`;
     counts.setAttribute('class', 'counts');
     const sounds = document.createElement('span');
+    sounds.setAttribute('class', 'sounds');
     sounds.innerText = ` - ${move.sounds}`;
     
     const addBtn = document.createElement('button');
@@ -128,7 +130,40 @@ function handleSave(e) {
     e.preventDefault();
 
     const userName = e.target.saveName.value;
-    console.log(userName);
+    const comboName = e.target.comboName.value;
+    const combination = getCombination(e.target.parentNode.querySelector('#choreo-list').children);
+
+    fetch(savesDb, makePostJson(userName, comboName, combination))
+    .then(loadCombinationList());
     
     e.target.reset();
+}
+
+function loadCombinationList() {
+    console.log('loading combo list');
+}
+
+function makePostJson(userName, comboName, combination) {
+    return {
+        method: 'POST',
+        headers: {
+            accept: 'application/json',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            'name': userName,
+            'comboName': comboName,
+            'combination': combination
+        })
+    };
+}
+
+function getCombination(comboList) {
+    const comboArray = [];
+    for (move in comboList) {
+        if (typeof(comboList[move]) === 'object') {
+            comboArray.push(comboList[move].id);
+        };
+    };
+    return comboArray;
 }
