@@ -1,5 +1,6 @@
 const database = 'http://localhost:3000/moves';
 const movesList = document.getElementById('moves-list');
+const choreoList = document.getElementById('choreo-list');
 
 document.addEventListener('DOMContentLoaded', function () {
     loadTapMoves(database);
@@ -34,6 +35,11 @@ function loadOneTapMove(move, isParent = true) {
     counts.setAttribute('class', 'counts');
     const sounds = document.createElement('span');
     sounds.innerText = ` - ${move.sounds}`;
+    
+    const addBtn = document.createElement('button');
+    addBtn.setAttribute('class', 'btn');
+    addBtn.innerText = '+';
+    addBtn.addEventListener('click', handleAddStep);
     
     if (altNames.innerText != ' ()') {
         newMove.append(addBtn, name, altNames, counts, sounds);
