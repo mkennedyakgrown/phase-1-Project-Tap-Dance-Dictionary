@@ -72,11 +72,12 @@ function handleSearch(e) {
     fetch(database)
     .then(res => res.json())
     .then(json => {
+        debugger;
         const flatDb = flattenDb(json);
         let filteredMoves;
-        if (searchForm.name === 'search-by-name') {
+        if (searchForm.id === 'name-form') {
             filteredMoves = flatDb.filter(move => searchByName(move, searchText));
-        } else if (searchForm.name === 'search-by-sounds') {
+        } else if (searchForm.id === 'sounds-form') {
             filteredMoves = flatDb.filter(move => searchBySounds(move, searchText));
         };
         clearSection(movesList);
