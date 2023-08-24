@@ -3480,11 +3480,35 @@
   ],
   "users": [
     {
+      "id": 1,
       "name": "Matthew",
       "combinations": [
         {
-          "name": "Quickie Shuffles",
-          "moves": ["SHUFFLE", "SHUFFLE", "SCUFFLE", "SHUFFLE"]
+          "name": "Test 1",
+          "moves": [
+            "BACK ESSENCE",
+            "Double Back Essence",
+            "Alexander Clunk",
+            "Bombershay Toe",
+            "Bombershay Toe",
+            "Drawbershay",
+            "Brittanyshay",
+            "BROADWAY",
+            "Toe Dig Bombershay",
+            "Brush Back",
+            "Click Buffalo",
+            "Buffalo Wing"
+          ]
+        },
+        {
+          "name": "Test 2",
+          "moves": [
+            "Alexander Clunk",
+            "BACK ESSENCE",
+            "Double Back Essence",
+            "BOMBERSHAY",
+            "Bombershay Broadway"
+          ]
         }
       ]
     }

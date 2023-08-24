@@ -60,6 +60,8 @@ function loadOneTapMove(move, isParent = true) {
     movesList.appendChild(newMove);
 }
 
+//** Search Section - handles searching full dictionary by Name and by Number of Sounds */
+
 function parseList(names, separator) {
     let namesString = names.toString();
     namesString = namesString.replaceAll(',', separator);
@@ -113,6 +115,9 @@ function clearSection(e) {
     }
 }
 
+//** Sidebar Section: Handles adding and removing steps from current combination,
+// creating new Users, and loading combinations */
+
 function handleAddStep(e) {
     const move = e.target.parentNode.cloneNode(true);
     move.setAttribute('class', 'parentMove');
@@ -131,12 +136,24 @@ function handleRemoveStep(e) {
 function handleSave(e) {
     e.preventDefault();
 
-    const userName = e.target.saveName.value;
+    const userId = userList.value;
     const comboName = e.target.comboName.value;
-    const combination = getCombination(e.target.parentNode.querySelector('#choreo-list').children);
+    const moves = getCombination(e.target.parentNode.querySelector('#choreo-list').children);
+    const combination = {
+        "name": comboName,
+        "moves": moves
+    };
 
-    fetch(usersDb, makePostJson(userName, comboName, combination))
-    .then(loadCombinationList());
+    fetch(`${usersDb}/${userId}`)
+    .then(res => res.json())
+    .then(json => {
+        const comboList = json.combinations;
+        comboList.push(combination);
+        fetch(`${usersDb}/${userId}`, makePostJson(comboName, comboList))
+        .then(loadCombinationList());
+    })
+
+
     
     e.target.reset();
 }
@@ -145,17 +162,15 @@ function loadCombinationList() {
     console.log('loading combo list');
 }
 
-function makePostJson(userName, comboName, combination) {
+function makePostJson(comboName, comboList) {
     return {
-        method: 'POST',
+        method: 'PATCH',
         headers: {
             accept: 'application/json',
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            'userName': userName,
-            'comboName': comboName,
-            'combination': combination
+            combinations: comboList
         })
     };
 }
@@ -180,12 +195,13 @@ function loadUserList() {
 
 function loadOneUser(user) {
     const currUser = document.createElement('option');
-    currUser.value = user.name;
+    currUser.value = user.id;
     currUser.textContent = user.name;
     userList.appendChild(currUser);
 
 }
 
 function handleSelectUser(e) {
-    console.log(`user ${e.target.value} selected`);
+    const userName = e.target.value;
+
 }
