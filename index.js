@@ -7,6 +7,7 @@ const loadChoreoList = document.getElementById('load-choreo');
 const choreoList = document.getElementById('choreo-list');
 const clearButton = document.getElementById('clear-choreo');
 const saveComboName = document.getElementById('comboName');
+const clearSearchbtn = document.getElementById('clear-search');
 
 loadTapMoves(database);
 loadUserList();
@@ -17,6 +18,7 @@ userList.addEventListener('change', handleSelectUser);
 createUser.addEventListener('submit', createNewUser);
 loadChoreoList.addEventListener('change', handleSelectCombination);
 clearButton.addEventListener('click', handleClearChoreo);
+clearSearchbtn.addEventListener('click', handleClearSearch);
 
 
 function loadTapMoves(url) {
@@ -65,6 +67,11 @@ function loadOneTapMove(move, isParent = true) {
     }
 
     movesList.appendChild(newMove);
+}
+
+function handleClearSearch() {
+    clearSection(movesList);
+    loadTapMoves(database);
 }
 
 //** Search Section - handles searching full dictionary by Name and by Number of Sounds */
