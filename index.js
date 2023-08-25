@@ -160,10 +160,6 @@ function handleSave(e) {
     e.target.reset();
 }
 
-function loadCombinationList() {
-    console.log('loading combo list');
-}
-
 function makePatchJson(comboName, comboList) {
     return {
         method: 'PATCH',
@@ -207,6 +203,13 @@ function loadOneUser(userId, userName) {
 
 }
 
+function loadOneListCombo(name) {
+    const newCombo = document.createElement('option');
+    newCombo.value = name;
+    newCombo.text = name;
+    loadChoreoList.nameList.appendChild(newCombo);
+}
+
 function createNewUser(e) {
     e.preventDefault();
     const newUserName = e.target['new-user-name'].value;
@@ -219,7 +222,7 @@ function createNewUser(e) {
             },
             body: JSON.stringify({
                 'name': newUserName,
-                'moves': []
+                'combinations': []
             })
         })
         .then(res => res.json())
@@ -233,5 +236,15 @@ function createNewUser(e) {
 
 function handleSelectUser(e) {
     const userId = e.target.selectedIndex;
-    console.log(userId);
+    clearSection(loadChoreoList.nameList);
+    console.log('handleSelectUser');
+
+    fetch(`${usersDb}/${userId}`)
+    .then(res => res.json())
+    .then(user => {
+        loadOneListCombo('Select a Combination');
+        if (user.combinations !== []) {
+            user.combinations.forEach(combo => loadOneListCombo(combo.name));
+        }
+    })
 }
