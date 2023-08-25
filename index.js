@@ -125,6 +125,21 @@ function clearSection(e) {
 //** Sidebar Section: Handles adding and removing steps from current combination,
 // creating new Users, and loading combinations */
 
+function loadUserList(selection = 0) {
+    fetch(usersDb)
+    .then(res => res.json())
+    .then(json => {
+        clearSection(userList);
+        loadOneUser(0, 'Select a User');
+        json.forEach(user => loadOneUser(user.id, user.name));
+        userList[selection].selected = true;
+    });
+}
+
+function handleClearChoreo(e) {
+    clearSection(choreoList);
+}
+
 function handleAddStep(e) {
     addStepToChoreo(e.target.parentNode);
 }
@@ -155,21 +170,29 @@ function handleSave(e) {
         "moves": moves
     };
 
-    fetch(`${usersDb}/${userId}`)
-    .then(res => res.json())
-    .then(json => {
-        const comboList = json.combinations;
-        comboList.push(combination);
-        fetch(`${usersDb}/${userId}`, makePatchJson(comboName, comboList))
-        .then(loadCombinationList());
-    })
-
-
-    
-    e.target.reset();
+    if (loadChoreoList.nameList.value !== saveComboName.value) {
+        fetch(`${usersDb}/${userId}`)
+        .then(res => res.json())
+        .then(user => {
+            const comboList = user.combinations;
+            comboList.push(combination);
+            fetch(`${usersDb}/${userId}`, makePatchJson(comboList))
+            .then(loadCombinationList(userId, combination.name));
+        })
+    } else {
+        fetch(`${usersDb}/${userId}`)
+        .then(res => res.json())
+        .then(user => {
+            const comboList = user.combinations;
+            const currCombo = comboList.find(element => element.name === combination.name);
+            currCombo.moves = combination.moves;
+            fetch(`${usersDb}/${userId}`, makePatchJson(comboList))
+            .then(loadCombinationList(userId, combination.name));
+        })
+    }
 }
 
-function makePatchJson(comboName, comboList) {
+function makePatchJson(comboList) {
     return {
         method: 'PATCH',
         headers: {
@@ -192,17 +215,6 @@ function getCombination(comboList) {
     return comboArray;
 }
 
-function loadUserList(selection = 0) {
-    fetch(usersDb)
-    .then(res => res.json())
-    .then(json => {
-        clearSection(userList);
-        loadOneUser(0, 'Select a User');
-        json.forEach(user => loadOneUser(user.id, user.name));
-        userList[selection].selected = true;
-    });
-}
-
 function loadOneUser(userId, userName) {
     const currUser = document.createElement('option');
     currUser.value = userId;
@@ -210,6 +222,21 @@ function loadOneUser(userId, userName) {
     currUser.textContent = userName;
     userList.appendChild(currUser);
 
+}
+
+function loadCombinationList(userId, selection = 'Select a Combination') {
+    clearSection(loadChoreoList.nameList);
+
+    fetch(`${usersDb}/${userId}`)
+    .then(res => res.json())
+    .then(user => {
+        loadOneListCombo('Select a Combination');
+        if (user.combinations !== []) {
+            user.combinations.forEach(combo => loadOneListCombo(combo.name));
+        }
+        console.log(selection);
+        loadChoreoList.nameList.querySelector(`[value="${selection}"]`).selected = true;
+    })
 }
 
 function loadOneListCombo(name) {
@@ -239,22 +266,11 @@ function createNewUser(e) {
     } else {
         window.alert('That username already exists!');
     }
-    
-
 }
 
 function handleSelectUser(e) {
     const userId = e.target.selectedIndex;
-    clearSection(loadChoreoList.nameList);
-
-    fetch(`${usersDb}/${userId}`)
-    .then(res => res.json())
-    .then(user => {
-        loadOneListCombo('Select a Combination');
-        if (user.combinations !== []) {
-            user.combinations.forEach(combo => loadOneListCombo(combo.name));
-        }
-    })
+    loadCombinationList(userId);
 }
 
 function handleSelectCombination(e) {
@@ -276,8 +292,4 @@ function loadMovesFromCombo(combination) {
         const currMove = document.getElementById(move);
         addStepToChoreo(currMove);
     })
-}
-
-function handleClearChoreo(e) {
-    clearSection(choreoList);
 }
