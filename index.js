@@ -5,6 +5,8 @@ const userList = document.getElementById('user-list');
 const createUser = document.getElementById('create-user');
 const loadChoreoList = document.getElementById('load-choreo');
 const choreoList = document.getElementById('choreo-list');
+const clearButton = document.getElementById('clear-choreo');
+const saveComboName = document.getElementById('comboName');
 
 loadTapMoves(database);
 loadUserList();
@@ -13,6 +15,9 @@ document.getElementById('sounds-form').addEventListener('submit', handleSearch);
 document.getElementById('save-choreo').addEventListener('submit', handleSave);
 userList.addEventListener('change', handleSelectUser);
 createUser.addEventListener('submit', createNewUser);
+loadChoreoList.addEventListener('change', handleSelectCombination);
+clearButton.addEventListener('click', handleClearChoreo);
+
 
 function loadTapMoves(url) {
     fetch(url)
@@ -121,7 +126,11 @@ function clearSection(e) {
 // creating new Users, and loading combinations */
 
 function handleAddStep(e) {
-    const move = e.target.parentNode.cloneNode(true);
+    addStepToChoreo(e.target.parentNode);
+}
+
+function addStepToChoreo(step) {
+    const move = step.cloneNode(true);
     move.setAttribute('class', 'parentMove');
     const btn = move.firstChild;
     btn.innerText = 'X';
@@ -237,7 +246,6 @@ function createNewUser(e) {
 function handleSelectUser(e) {
     const userId = e.target.selectedIndex;
     clearSection(loadChoreoList.nameList);
-    console.log('handleSelectUser');
 
     fetch(`${usersDb}/${userId}`)
     .then(res => res.json())
@@ -247,4 +255,29 @@ function handleSelectUser(e) {
             user.combinations.forEach(combo => loadOneListCombo(combo.name));
         }
     })
+}
+
+function handleSelectCombination(e) {
+    const selectedCombo = e.target.value;
+    const userId = userList.selectedIndex;
+    
+    fetch(`${usersDb}/${userId}`)
+    .then(res => res.json())
+    .then(user => {
+        const combination = user.combinations.find(element => element.name === selectedCombo);
+        loadMovesFromCombo(combination);
+        saveComboName.value = combination.name;
+    });
+}
+
+function loadMovesFromCombo(combination) {
+    clearSection(choreoList);
+    combination.moves.forEach(move => {
+        const currMove = document.getElementById(move);
+        addStepToChoreo(currMove);
+    })
+}
+
+function handleClearChoreo(e) {
+    clearSection(choreoList);
 }
