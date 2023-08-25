@@ -2,6 +2,7 @@ const database = 'http://localhost:3000/moves';
 const usersDb = 'http://localhost:3000/users';
 const movesList = document.getElementById('moves-list');
 const userList = document.getElementById('user-list');
+const createUser = document.getElementById('create-user');
 const loadChoreoList = document.getElementById('load-choreo');
 const choreoList = document.getElementById('choreo-list');
 
@@ -11,6 +12,7 @@ document.getElementById('name-form').addEventListener('submit', handleSearch);
 document.getElementById('sounds-form').addEventListener('submit', handleSearch);
 document.getElementById('save-choreo').addEventListener('submit', handleSave);
 userList.addEventListener('change', handleSelectUser);
+createUser.addEventListener('submit', createNewUser);
 
 function loadTapMoves(url) {
     fetch(url)
@@ -149,7 +151,7 @@ function handleSave(e) {
     .then(json => {
         const comboList = json.combinations;
         comboList.push(combination);
-        fetch(`${usersDb}/${userId}`, makePostJson(comboName, comboList))
+        fetch(`${usersDb}/${userId}`, makePatchJson(comboName, comboList))
         .then(loadCombinationList());
     })
 
@@ -162,7 +164,7 @@ function loadCombinationList() {
     console.log('loading combo list');
 }
 
-function makePostJson(comboName, comboList) {
+function makePatchJson(comboName, comboList) {
     return {
         method: 'PATCH',
         headers: {
@@ -185,23 +187,51 @@ function getCombination(comboList) {
     return comboArray;
 }
 
-function loadUserList() {
+function loadUserList(selection = 0) {
     fetch(usersDb)
     .then(res => res.json())
     .then(json => {
-        json.forEach(user => loadOneUser(user));
+        clearSection(userList);
+        loadOneUser(0, 'Select a User');
+        json.forEach(user => loadOneUser(user.id, user.name));
+        userList[selection].selected = true;
     });
 }
 
-function loadOneUser(user) {
+function loadOneUser(userId, userName) {
     const currUser = document.createElement('option');
-    currUser.value = user.id;
-    currUser.textContent = user.name;
+    currUser.value = userId;
+    currUser.setAttribute('name', userName);
+    currUser.textContent = userName;
     userList.appendChild(currUser);
 
 }
 
-function handleSelectUser(e) {
-    const userName = e.target.value;
+function createNewUser(e) {
+    e.preventDefault();
+    const newUserName = e.target['new-user-name'].value;
+    if (userList.options.namedItem(newUserName) === null) {
+        fetch(usersDb, {
+            method: 'POST',
+            headers: {
+                accept: 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                'name': newUserName,
+                'moves': []
+            })
+        })
+        .then(res => res.json())
+        .then(json => loadUserList(json.id));
+    } else {
+        window.alert('That username already exists!');
+    }
+    
 
+}
+
+function handleSelectUser(e) {
+    const userId = e.target.selectedIndex;
+    console.log(userId);
 }

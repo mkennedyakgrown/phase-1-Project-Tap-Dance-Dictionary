@@ -3509,6 +3509,17 @@
             "BOMBERSHAY",
             "Bombershay Broadway"
           ]
+        },
+        {
+          "name": "Test 3",
+          "moves": [
+            "BACK ESSENCE",
+            "Double Back Essence",
+            "BOMBERSHAY",
+            "BOMBERSHAY",
+            "Bombershay Broadway",
+            "Brittanyshay"
+          ]
         }
       ]
     }
