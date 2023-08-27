@@ -241,7 +241,6 @@ function loadCombinationList(userId, selection = 'Select a Combination') {
         if (user.combinations !== []) {
             user.combinations.forEach(combo => loadOneListCombo(combo.name));
         }
-        console.log(selection);
         loadChoreoList.nameList.querySelector(`[value="${selection}"]`).selected = true;
     })
 }
@@ -277,7 +276,9 @@ function createNewUser(e) {
 
 function handleSelectUser(e) {
     const userId = e.target.selectedIndex;
-    loadCombinationList(userId);
+    loadCombinationList(e.target.children[userId].value);
+    handleClearChoreo();
+    document.getElementById('save-choreo').reset();
 }
 
 function handleSelectCombination(e) {

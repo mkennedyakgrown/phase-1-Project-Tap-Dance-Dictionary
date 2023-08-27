@@ -3515,12 +3515,52 @@
             "Bombershay Broadway",
             "Brittanyshay"
           ]
+        },
+        {
+          "name": "Shuffles Combo",
+          "moves": [
+            "Hop Shuffle",
+            "Hop Shuffle",
+            "Hop Shuffle",
+            "SPANK",
+            "SHUFFLE BALL CHANGE",
+            "Shuffle Heel",
+            "IRISH"
+          ]
+        },
+        {
+          "name": "Shuffles Combo 1",
+          "moves": [
+            "Hop Shuffle",
+            "Hop Shuffle",
+            "Hop Shuffle",
+            "SPANK",
+            "SHUFFLE BALL CHANGE",
+            "Shuffle Heel",
+            "IRISH",
+            "BRUSH",
+            "Brush Back",
+            "BUFFALO"
+          ]
         }
       ]
     },
     {
       "name": "Mari",
-      "combinations": [],
+      "combinations": [
+        {
+          "name": "Test 5",
+          "moves": [
+            "Alexander Clunk",
+            "BACK ESSENCE",
+            "Double Back Essence",
+            "Double Back Essence",
+            "Brittanyshay",
+            "Drawman",
+            "Maxie Ford Pullback"
+          ]
+        }
+      ],
       "id": 2
     }
   ]
