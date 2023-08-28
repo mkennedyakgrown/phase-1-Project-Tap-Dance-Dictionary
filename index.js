@@ -321,22 +321,26 @@ function createNewUser(e) {
 
 function handleSelectUser(e) {
     const userId = e.target.selectedIndex;
-    loadCombinationList(e.target.children[userId].value);
-    handleClearChoreo();
-    document.getElementById('save-choreo').reset();
+    if (userId !== 0) {
+        loadCombinationList(e.target.children[userId].value);
+        handleClearChoreo();
+        document.getElementById('save-choreo').reset();
+    };
 }
 
 function handleSelectCombination(e) {
     const selectedCombo = e.target.value;
     const userId = userList.selectedIndex;
     
-    fetch(`${usersDb}/${userId}`)
-    .then(res => res.json())
-    .then(user => {
-        const combination = user.combinations.find(element => element.name === selectedCombo);
-        loadMovesFromCombo(combination);
-        saveComboName.value = combination.name;
-    });
+    if (userId !== 0) {
+        fetch(`${usersDb}/${userId}`)
+        .then(res => res.json())
+        .then(user => {
+            const combination = user.combinations.find(element => element.name === selectedCombo);
+            loadMovesFromCombo(combination);
+            saveComboName.value = combination.name;
+        });
+    };
 }
 
 function loadMovesFromCombo(combination) {
