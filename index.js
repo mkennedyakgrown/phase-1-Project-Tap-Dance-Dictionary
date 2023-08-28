@@ -215,6 +215,11 @@ function handleSave(e) {
     e.preventDefault();
 
     const userId = userList.value;
+    if (parseInt(userId) === 0) {
+        console.log('alert');
+        alert('No User Selected!');
+        return;
+    }
     const comboName = e.target.comboName.value;
     const moves = getCombination(document.getElementById('choreo-list').children);
     const combination = {
