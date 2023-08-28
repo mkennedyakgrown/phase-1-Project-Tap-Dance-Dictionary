@@ -1,5 +1,6 @@
 const database = 'http://localhost:3000/moves';
 const usersDb = 'http://localhost:3000/users';
+const backgroundUrl = 'img/close-up-dancer-wearing-tap-shoes.jpg';
 const movesList = document.getElementById('moves-list');
 const userList = document.getElementById('user-list');
 const createUser = document.getElementById('create-user');
@@ -64,7 +65,7 @@ function loadOneTapMove(move, isParent = true) {
         newMove.setAttribute('class', 'childMove');
     } else {
         newMove.setAttribute('class', 'parentMove');
-    }
+    };
 
     movesList.appendChild(newMove);
 }
@@ -215,7 +216,7 @@ function handleSave(e) {
 
     const userId = userList.value;
     const comboName = e.target.comboName.value;
-    const moves = getCombination(e.target.parentNode.querySelector('#choreo-list').children);
+    const moves = getCombination(document.getElementById('choreo-list').children);
     const combination = {
         "name": comboName,
         "moves": moves
@@ -260,7 +261,7 @@ function getCombination(comboList) {
     const comboArray = [];
     for (move in comboList) {
         if (typeof(comboList[move]) === 'object') {
-            comboArray.push(comboList[move].id);
+            comboArray.push(comboList[move].querySelector('.name').textContent);
         };
     };
     return comboArray;

@@ -12,46 +12,61 @@
     <body>
 
         <div class="sidenav">
-            <h2>Choreography List</h2>
-            <form id="choose-user">
-                <label for="user-list">Choose Username</label>
-                <select id="user-list" name="user-list">
-                    <option value="Select a User">Select a User</option>
-                </select>
-            </form>
-            <form id="create-user">
-                <input type="text" id="new-user-name" name="new-user-name" class="save-input" placeholder="Your Name">
-                <input type="submit" class="userInput" value="Create New User">
-            </form>
-            <form id="load-choreo">
-                <label for="name-list">Load a Combination</label>
-                <select id="nameList" name="name-list">
-                    <option value="Select a Combination">Select a Combination</option>
-                </select>
-            </form>
-            <form id="save-choreo">
-                <label for="save-name">Save Your Combination</label>
-                <input type="text" id="comboName" name="combo-name" class="save-input" placeholder="Combination Name">
-                <input type="submit" class="saveInput" value="Save">
-            </form>
-            <button id="clear-choreo">Clear Combination</button>
+
+            <div class="choreo-controls">
+                <h2>Choreography List</h2>
+                <form id="choose-user" class="choreo-form">
+                    <label for="user-list">Choose User</label>
+                    <select id="user-list" name="user-list">
+                        <option value="Select a User">Select a User</option>
+                    </select>
+                </form>
+                <form id="create-user" class="choreo-form">
+                    <label for="new-user-name">Create A New User</label>
+                    <div class="form-container">
+                        <input type="text" id="new-user-name" name="new-user-name" class="save-input" placeholder="Your Name">
+                        <input type="submit" class="userInput" value="Enter">
+                    </div>
+                </form>
+                <form id="load-choreo" class="choreo-form">
+                    <label for="name-list">Load a Combination</label>
+                    <select id="nameList" name="name-list">
+                        <option value="Select a Combination">Select a Combination</option>
+                    </select>
+                </form>
+                <form id="save-choreo" class="choreo-form">
+                    <label for="save-name">Save Your Combination</label>
+                    <div class="form-container">
+                        <input type="text" id="comboName" name="combo-name" class="save-input" placeholder="Combination Name">
+                        <input type="submit" class="saveInput" value="Save">
+                    </div>
+                </form>
+                <button id="clear-choreo">Clear Combination</button>
+            </div>
             <ul id="choreo-list">
             </ul>
         </div>
 
         <div class="content">
-            <label for="search-tap-moves">Search Tap Moves</label>
-            <form id="name-form" name="search-by-name">
-                <label for="search-by-name">Search By Name</label>
-                <input type="text" name="search-by-name" class="searchInput" id="name">
-                <input type="submit" class="searchInput" id="nameButton" value="Search">
-            </form>
-            <form id="sounds-form" name="search-by-sounds">
-                <label for="search-by-sounds">Search by Number of Sounds</label>
-                <input type="number" name="search-by-sounds" class="searchInput" id="sounds">
-                <input type="submit" class="searchInput" id="soundsButton" value="Search">
-            </form>
-            <button id="clear-search">Clear Search</button>
+            <!-- <h2>Search Tap Moves</h2> -->
+            <div class="search-box">
+                <form id="name-form" name="search-by-name">
+                    <label for="search-by-name">Search By Name</label>
+                    <input type="text" name="search-by-name" class="searchInput" id="name">
+                    <input type="submit" class="searchInput" id="nameButton" value="Search">
+                </form>
+                <form id="sounds-form" name="search-by-sounds">
+                    <label for="search-by-sounds">Search by Number of Sounds</label>
+                    <input type="number" name="search-by-sounds" class="searchInput" id="sounds">
+                    <input type="submit" class="searchInput" id="soundsButton" value="Search">
+                </form>
+            </div>
+            <div class="clear-search">
+                <button id="clear-search">Clear Search</button>
+            </div>
+            <div class="tap-moves-title">
+                <h1>Tap Moves Dictionary</h1>
+            </div>
             <ul id="moves-list">
             </ul>
         </div>

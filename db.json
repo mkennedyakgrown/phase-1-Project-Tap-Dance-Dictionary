@@ -3499,10 +3499,14 @@
           "name": "Test 2",
           "moves": [
             "Alexander Clunk",
-            "BACK ESSENCE",
             "Double Back Essence",
+            "Drawbershay",
+            "Double Back Essence",
+            "BOMBERSHAY",
+            "Bombershay Toe",
+            "Jackhammer",
             "Jinnyshay",
-            "Drawbershay"
+            "BACK ESSENCE"
           ]
         },
         {
@@ -3562,6 +3566,11 @@
         }
       ],
       "id": 2
+    },
+    {
+      "name": "George",
+      "combinations": [],
+      "id": 3
     }
   ]
 }
