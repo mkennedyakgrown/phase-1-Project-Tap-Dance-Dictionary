@@ -153,11 +153,7 @@ function handleAddStep(e) {
 
 function addStepToChoreo(step) {
     const move = step.cloneNode(true);
-    let moveCount = 0;
-    while (document.getElementById(`${move.id}${moveCount}`) !== null) {
-        moveCount++;
-    }
-    move.setAttribute('id', `${move.id}${moveCount}`);
+    move.setAttribute('id', choreoList.childElementCount);
     move.setAttribute('class', 'parentMove');
     addDragAndDrop(move);
     const btn = move.firstChild;
@@ -185,9 +181,28 @@ function drag(e) {
 
 function drop(e) {
     e.preventDefault();
-    // debugger;
     const data = e.dataTransfer.getData('text');
-    choreoList.insertBefore(document.getElementById(data), e.target.parentNode);
+    const dragItem = document.getElementById(data);
+    let dropItem;
+    if (e.target.nodeName !== "LI") {
+        dropItem = e.target.parentNode;
+    } else {
+        dropItem = e.target;
+    }
+    if (parseInt(dragItem.id) > parseInt(dropItem.id)) {
+        choreoList.insertBefore(dragItem, dropItem);
+    } else {
+        dropItem.after(dragItem);
+    }
+    updateChoreoIndex();
+}
+
+function updateChoreoIndex() {
+    let i = 0;
+    for (const entry of choreoList.childNodes.entries()) {
+        entry[1].id = i;
+        i++
+    }
 }
 
 function handleRemoveStep(e) {
