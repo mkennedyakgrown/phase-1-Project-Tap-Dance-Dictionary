@@ -22,6 +22,8 @@ clearButton.addEventListener('click', handleClearChoreo);
 clearSearchbtn.addEventListener('click', handleClearSearch);
 
 
+//** Load Dictionary Section - populates the main body with the database's full list of tap dance moves. */
+
 function loadTapMoves(url) {
     fetch(url)
     .then(res => res.json())
@@ -70,18 +72,18 @@ function loadOneTapMove(move, isParent = true) {
     movesList.appendChild(newMove);
 }
 
+function parseList(names, separator) {
+    let namesString = names.toString();
+    namesString = namesString.replaceAll(',', separator);
+    return namesString;
+}
+
 function handleClearSearch() {
     clearSection(movesList);
     loadTapMoves(database);
 }
 
 //** Search Section - handles searching full dictionary by Name and by Number of Sounds */
-
-function parseList(names, separator) {
-    let namesString = names.toString();
-    namesString = namesString.replaceAll(',', separator);
-    return namesString;
-}
 
 function handleSearch(e) {
     e.preventDefault();
@@ -113,6 +115,7 @@ function searchBySounds(e, searchText) {
     return parseInt(e.countsNumber) === parseInt(searchText);
 }
 
+// Take the nested parent and child moves and "flatten" them into a single-layer array for cleaner search results.
 function flattenDb(db) {
     const newDb = [];
     db.forEach(move => {
@@ -142,10 +145,6 @@ function loadUserList(selection = 0) {
         json.forEach(user => loadOneUser(user.id, user.name));
         userList[selection].selected = true;
     });
-}
-
-function handleClearChoreo(e) {
-    clearSection(choreoList);
 }
 
 function handleAddStep(e) {
@@ -206,6 +205,10 @@ function updateChoreoIndex() {
     }
 }
 
+function handleClearChoreo(e) {
+    clearSection(choreoList);
+}
+
 function handleRemoveStep(e) {
     const move = e.target.parentNode;
     choreoList.removeChild(move);
@@ -249,6 +252,7 @@ function handleSave(e) {
     }
 }
 
+// Create json file for patch requests to update or add combinations to user object in database
 function makePatchJson(comboList) {
     return {
         method: 'PATCH',
@@ -262,6 +266,7 @@ function makePatchJson(comboList) {
     };
 }
 
+// Creates an array of the names of each move in the combination being saved.
 function getCombination(comboList) {
     const comboArray = [];
     for (move in comboList) {

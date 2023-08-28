@@ -3484,7 +3484,7 @@
       "name": "Matthew",
       "combinations": [
         {
-          "name": "Test 1",
+          "name": "Combo 1",
           "moves": [
             "BACK ESSENCE",
             "Double Back Essence",
@@ -3496,7 +3496,7 @@
           ]
         },
         {
-          "name": "Test 2",
+          "name": "Combo 2",
           "moves": [
             "Alexander Clunk",
             "Double Back Essence",
@@ -3510,7 +3510,7 @@
           ]
         },
         {
-          "name": "Test 3",
+          "name": "Combo 3",
           "moves": [
             "BACK ESSENCE",
             "Double Back Essence",
@@ -3546,6 +3546,18 @@
             "Brush Back",
             "BUFFALO"
           ]
+        },
+        {
+          "name": "Shorty-George",
+          "moves": [
+            "FLAP",
+            "FLAP",
+            "Double Flap",
+            "Flabbergast",
+            "Scap",
+            "Frap",
+            "GRAB OFF"
+          ]
         }
       ]
     },
@@ -3553,7 +3565,7 @@
       "name": "Mari",
       "combinations": [
         {
-          "name": "Test 5",
+          "name": "Combo 5",
           "moves": [
             "Alexander Clunk",
             "BACK ESSENCE",
@@ -3566,11 +3578,6 @@
         }
       ],
       "id": 2
-    },
-    {
-      "name": "George",
-      "combinations": [],
-      "id": 3
     }
   ]
 }
