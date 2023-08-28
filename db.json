@@ -3546,18 +3546,6 @@
             "Brush Back",
             "BUFFALO"
           ]
-        },
-        {
-          "name": "Shorty-George",
-          "moves": [
-            "FLAP",
-            "FLAP",
-            "Double Flap",
-            "Flabbergast",
-            "Scap",
-            "Frap",
-            "GRAB OFF"
-          ]
         }
       ]
     },
@@ -3565,7 +3553,7 @@
       "name": "Mari",
       "combinations": [
         {
-          "name": "Test 5",
+          "name": "Combo 1",
           "moves": [
             "Alexander Clunk",
             "BACK ESSENCE",
