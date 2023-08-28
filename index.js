@@ -283,7 +283,7 @@ function loadOneUser(userId, userName) {
     currUser.setAttribute('name', userName);
     currUser.textContent = userName;
     userList.appendChild(currUser);
-
+    
 }
 
 function loadCombinationList(userId, selection = 'Select a Combination') {
