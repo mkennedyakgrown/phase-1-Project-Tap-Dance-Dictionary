@@ -1,0 +1,3481 @@
+{
+  "moves": [
+    {
+      "name": "ALEXANDER",
+      "altNames": [
+        "Broadway",
+        "Shirley Temple"
+      ],
+      "counts": [
+        "&1&2&3&4",
+        "a1 a2 a3 a4"
+      ],
+      "countsNumber": 8,
+      "sounds": "flap HEEL heel SPANK heel TOE heel",
+      "altMoves": [
+        {
+          "name": "Alexander Clunk",
+          "altNames": "",
+          "counts": [
+            "&1&2&3&4",
+            "a1 a2 a3 a4"
+          ],
+          "countsNumber": 8,
+          "sounds": "flap HEEL heel SPANK heel CLUNK heel",
+          "altMoves": []
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "BACK ESSENCE",
+      "altNames": "",
+      "counts": [
+        "&1&2",
+        "a1 a2"
+      ],
+      "countsNumber": 4,
+      "sounds": "spank step (cross behind) STEP step",
+      "altMoves": [
+        {
+          "name": "Double Back Essence",
+          "altNames": "",
+          "counts": [
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "spank step (cross behind) FLAP step",
+          "altMoves": []
+        },
+        {
+          "name": "BOMBERSHAY",
+          "altNames": [
+            "Bombershe",
+            "Toe Clip"
+          ],
+          "counts": [
+            "1&a"
+          ],
+          "countsNumber": 3,
+          "sounds": "step SPANK DIG",
+          "altMoves": []
+        },
+        {
+          "name": "Bombershay Broadway",
+          "altNames": "",
+          "counts": [
+            "a1 2"
+          ],
+          "countsNumber": 3,
+          "sounds": "spank stamp, STEP/twist and lift right toe",
+          "altMoves": []
+        },
+        {
+          "name": "Bombershay Toe",
+          "altNames": "",
+          "counts": [
+            "1e&a"
+          ],
+          "countsNumber": 4,
+          "sounds": "step SPANK DIG TOE",
+          "altMoves": []
+        },
+        {
+          "name": "Brittanyshay",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "step SPANK TOE-TIP step DIG",
+          "altMoves": []
+        },
+        {
+          "name": "Drawbershay",
+          "altNames": "",
+          "counts": [
+            "1e&a"
+          ],
+          "countsNumber": 4,
+          "sounds": "step SPANK heel DIG",
+          "altMoves": []
+        },
+        {
+          "name": "Jackhammer",
+          "altNames": "",
+          "counts": [
+            "&1&2"
+          ],
+          "countsNumber": 4,
+          "sounds": "spank stamp SPANK DIG",
+          "altMoves": []
+        },
+        {
+          "name": "Jinnyshay",
+          "altNames": "",
+          "counts": [
+            "a1e&a2e"
+          ],
+          "countsNumber": 7,
+          "sounds": "spank step SPANK DIG stamp SPANK DIG  ",
+          "altMoves": []
+        },
+        {
+          "name": "Shayberbom",
+          "altNames": "",
+          "counts": [
+            "1&a"
+          ],
+          "countsNumber": 3,
+          "sounds": "step SCUFF SMACK (STEP)",
+          "altMoves": []
+        },
+        {
+          "name": "Shay Roll",
+          "altNames": "",
+          "counts": [
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "spank dig HEEL toe TOE",
+          "altMoves": []
+        },
+        {
+          "name": "Toe Dig Bombershay",
+          "altNames": "",
+          "counts": [
+            "1&a2&a"
+          ],
+          "countsNumber": 6,
+          "sounds": "toe SPANK DIG dig SPANK DIG",
+          "altMoves": []
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "BROADWAY",
+      "altNames": [
+        "see Alexander"
+      ],
+      "counts": [
+        "&1&2&3&4",
+        "a1 a2 a3 a4"
+      ],
+      "countsNumber": 8,
+      "sounds": "flap HEEL heel SPANK heel TOE heel",
+      "altMoves": [],
+      "id": 3
+    },
+    {
+      "name": "BRUSH",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "swing foot forward (front or diagonally side) hitting only the ball tap",
+      "altMoves": [
+        {
+          "name": "Brush Back",
+          "altNames": [
+            "See Spank"
+          ],
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "swing foot back hitting only the ball tap",
+          "altMoves": []
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "BUFFALO",
+      "altNames": "",
+      "counts": [
+        "1&a2"
+      ],
+      "countsNumber": 4,
+      "sounds": "(cross foot in front) step SHUFFLE STEP ",
+      "altMoves": [
+        {
+          "name": "Buffalo Pullback",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "(cross foot in front) step SHUFFLE switching pullback",
+          "altMoves": []
+        },
+        {
+          "name": "Buffalo Scuffle",
+          "altNames": "",
+          "counts": [
+            "1e&a*2"
+          ],
+          "countsNumber": 6,
+          "sounds": "(cross foot in front) step SHUFFLE scuffle STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Buffalo Turn",
+          "altNames": "",
+          "counts": [
+            "1&a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "(cross foot in front) step SHUFFLE STEP (turning)",
+          "altMoves": []
+        },
+        {
+          "name": "Buffalo Wing",
+          "altNames": "",
+          "counts": [
+            "1e&a*2"
+          ],
+          "countsNumber": 6,
+          "sounds": "(cross foot in front) step SHUFFLE switching wing",
+          "altMoves": []
+        },
+        {
+          "name": "Click Buffalo",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "(cross foot in front) step SHUFFLE click-left-toe-tap-to-right-heel-tap STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Double Buffalo",
+          "altNames": "",
+          "counts": [
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "(cross foot in front) flap SHUFFLE STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Double Buffalo Toe",
+          "altNames": "",
+          "counts": [
+            "a1e&a2"
+          ],
+          "countsNumber": 6,
+          "sounds": "(cross foot in front) flap SHUFFLE TOE STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Double Buffalo Toe Pullback",
+          "altNames": "",
+          "counts": [
+            "a1e&a*2"
+          ],
+          "countsNumber": 7,
+          "sounds": "(cross foot in front ) flap SHUFFLE TOE switching pullback",
+          "altMoves": []
+        },
+        {
+          "name": "Double Toe Buffalo",
+          "altNames": "",
+          "counts": [
+            "a1e&a*2"
+          ],
+          "countsNumber": 7,
+          "sounds": "(cross foot in front) flap SHUFFLE TOE toe STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Faluffalo",
+          "altNames": "",
+          "counts": [
+            "a1e&a**2"
+          ],
+          "countsNumber": 8,
+          "sounds": "(cross foot in front) flap SHUFFLE single-pullback-end-with-a-flap FLAP",
+          "altMoves": []
+        },
+        {
+          "name": "Maddalo",
+          "altNames": "",
+          "counts": [
+            "1e&a*2"
+          ],
+          "countsNumber": 6,
+          "sounds": "(cross foot in front) step SHUFFLE pullback-to-toe STEP",
+          "altMoves": []
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "CHUG",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "lift heels, slide forward and then drop the heels at the end of the slide forward",
+      "altMoves": [],
+      "id": 6
+    },
+    {
+      "name": "CINCINNATI",
+      "altNames": "",
+      "counts": [
+        "&1&2&3",
+        "&a1&a2"
+      ],
+      "countsNumber": 6,
+      "sounds": "spank HEEL shuffle HEEL step",
+      "altMoves": [
+        {
+          "name": "Cincinnati Flam",
+          "altNames": "",
+          "counts": [
+            "&1&2&3",
+            "&a1&a2"
+          ],
+          "countsNumber": 6,
+          "sounds": "spank HEEL shuffle HEEL flam",
+          "altMoves": []
+        },
+        {
+          "name": "Double Cincinnati",
+          "altNames": "",
+          "counts": [
+            "&1&2&a3",
+            "&a1e&a2"
+          ],
+          "countsNumber": 7,
+          "sounds": "spank HEEL shuffle HEEL flap",
+          "altMoves": []
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "CLICK",
+      "altNames": [
+        "TOE & HEEL"
+      ],
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "hit the inside of the toe or heel taps together",
+      "altMoves": [
+        {
+          "name": "Clickety Clank",
+          "altNames": "",
+          "counts": [
+            "1&a2&a3"
+          ],
+          "countsNumber": 7,
+          "sounds": "step SHUFFLE click STEP HEEL clunk",
+          "altMoves": []
+        },
+        {
+          "name": "Jump Click",
+          "altNames": "",
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "click either the toe taps together or the heel taps together or both together",
+          "altMoves": []
+        }
+      ],
+      "id": 8
+    },
+    {
+      "name": "CLUNK",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "hit the inside of the toe and heel tap against the floor at the same time",
+      "altMoves": [
+        {
+          "name": "Clunker",
+          "altNames": "",
+          "counts": [
+            "1&a2&a"
+          ],
+          "countsNumber": 6,
+          "sounds": "clunk HEEL TOE smack (step) HEEL heel  ",
+          "altMoves": []
+        },
+        {
+          "name": "CRAMP ROLL",
+          "altNames": "",
+          "counts": [
+            "1&a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "step STEP heel HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Alternating Cramp Roll",
+          "altNames": [
+            "Around the World",
+            "Trading Cramp Roll"
+          ],
+          "counts": [
+            "1&a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "step STEP HEEL heel",
+          "altMoves": []
+        },
+        {
+          "name": "Backwards Cramp Roll",
+          "altNames": "",
+          "counts": [
+            "1&a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "dig DIG toe TOE",
+          "altMoves": []
+        },
+        {
+          "name": "Cramprolet",
+          "altNames": "",
+          "counts": [
+            "1&a"
+          ],
+          "countsNumber": 3,
+          "sounds": "jump heel HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Criss Cross Cramp Roll",
+          "altNames": "",
+          "counts": [
+            "1&a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "step DIG heel TOE",
+          "altMoves": []
+        },
+        {
+          "name": "Double Cramp Roll",
+          "altNames": [
+            "Flap Cramp Roll"
+          ],
+          "counts": [
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "flap STEP heel HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Double Flap Cramp Roll",
+          "altNames": "",
+          "counts": [
+            "a1e&a2"
+          ],
+          "countsNumber": 6,
+          "sounds": "flap FLAP heel HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Frap Cramp Roll",
+          "altNames": [
+            "NOT flap"
+          ],
+          "counts": [
+            "a&1&a2"
+          ],
+          "countsNumber": 6,
+          "sounds": "frap (riff step) STEP heel HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Lopsided Cramp Roll",
+          "altNames": "",
+          "counts": [
+            "1&a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "step STEP heel heel",
+          "altMoves": []
+        },
+        {
+          "name": "Megamines Cramp Roll",
+          "altNames": "",
+          "counts": [
+            "&a1e&a2"
+          ],
+          "countsNumber": 7,
+          "sounds": "riff HEEL dig DIG toe TOE",
+          "altMoves": []
+        },
+        {
+          "name": "Riffle Cramp Roll",
+          "altNames": "",
+          "counts": [
+            "&a1e&a2"
+          ],
+          "countsNumber": 7,
+          "sounds": "riffle step STEP heel HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Rod Roll",
+          "altNames": "",
+          "counts": [
+            "1&a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "step STEP HEEL step or step STEP HEEL stamp",
+          "altMoves": []
+        },
+        {
+          "name": "Stamp Cramp Roll Turn",
+          "altNames": "",
+          "counts": [
+            "1 2&a3"
+          ],
+          "countsNumber": 5,
+          "sounds": "stamp STEP step heel HEEL (turning)",
+          "altMoves": []
+        },
+        {
+          "name": "Stamp Roll",
+          "altNames": "",
+          "counts": [
+            "1&a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "stamp STEP heel HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Triple Cramp Roll",
+          "altNames": [
+            "Shuffle Cramp Roll"
+          ],
+          "counts": [
+            "&a1&a2"
+          ],
+          "countsNumber": 6,
+          "sounds": "shuffle step STEP heel HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Triple Double Cramp Roll",
+          "altNames": "",
+          "counts": [
+            "&a1e&a2"
+          ],
+          "countsNumber": 7,
+          "sounds": "shuffle step FLAP heel HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "DIG",
+          "altNames": [
+            "Heel"
+          ],
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "hit the back edge of the heel tap against the floor",
+          "altMoves": []
+        },
+        {
+          "name": "Ditto",
+          "altNames": "",
+          "counts": [
+            "1&2&3&"
+          ],
+          "countsNumber": 6,
+          "sounds": "dig TOE spank TOE dig toe",
+          "altMoves": []
+        },
+        {
+          "name": "Double Heel Stand",
+          "altNames": "",
+          "counts": [
+            "1&a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "dig DIG step STEP (group sounds tightly together)",
+          "altMoves": []
+        },
+        {
+          "name": "Dub Dub Dig Toe",
+          "altNames": "",
+          "counts": [
+            "1&2&"
+          ],
+          "countsNumber": 4,
+          "sounds": "dig TOE dig toe",
+          "altMoves": []
+        },
+        {
+          "name": "Farmer",
+          "altNames": "",
+          "counts": [
+            "1 a2"
+          ],
+          "countsNumber": 3,
+          "sounds": "heel stand, spank STAMP",
+          "altMoves": []
+        },
+        {
+          "name": "Sloppy Joe",
+          "altNames": "",
+          "counts": [
+            "1&a2&a3"
+          ],
+          "countsNumber": 7,
+          "sounds": "dig DIG spank TOE dig toe STAMP",
+          "altMoves": []
+        }
+      ],
+      "id": 9
+    },
+    {
+      "name": "DIG TOE",
+      "altNames": [
+        "Heel Toe"
+      ],
+      "counts": [
+        "1&"
+      ],
+      "countsNumber": 2,
+      "sounds": "dig toe ",
+      "altMoves": [],
+      "id": 10
+    },
+    {
+      "name": "DIG TOE STEP HEEL",
+      "altNames": [
+        "Heel Toe Toe Heel"
+      ],
+      "counts": [
+        "1&2&"
+      ],
+      "countsNumber": 4,
+      "sounds": "dig toe STEP HEEL",
+      "altMoves": [
+        {
+          "name": "DOUBLE....",
+          "altNames": "",
+          "counts": [
+            "Looking for a double something? Find the root step and look below it (for double irish, find irish and look below it)"
+          ],
+          "countsNumber": 116,
+          "altMoves": []
+        }
+      ],
+      "id": 11
+    },
+    {
+      "name": "DRAWBACK",
+      "altNames": "",
+      "counts": [
+        "&a1"
+      ],
+      "countsNumber": 3,
+      "sounds": "spank HEEL step",
+      "altMoves": [
+        {
+          "name": "Crossing Drawback",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "spank HEEL step (cross over the left foot)",
+          "altMoves": []
+        },
+        {
+          "name": "Double Drawback",
+          "altNames": "",
+          "counts": [
+            "&1&2",
+            "a1 a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "spank HEEL flap ",
+          "altMoves": []
+        },
+        {
+          "name": "Drawback Flam",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "spank HEEL flam",
+          "altMoves": []
+        },
+        {
+          "name": "Drawback Heel",
+          "altNames": "",
+          "counts": [
+            "&1&2"
+          ],
+          "countsNumber": 4,
+          "sounds": "spank HEEL step heel",
+          "altMoves": []
+        },
+        {
+          "name": "Drawman",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "spank HEEL step/TOE (at the same time)",
+          "altMoves": []
+        },
+        {
+          "name": "Frapback",
+          "altNames": "",
+          "counts": [
+            "&1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "spank HEEL frap",
+          "altMoves": []
+        },
+        {
+          "name": "Spiel",
+          "altNames": "",
+          "counts": [
+            "1&a"
+          ],
+          "countsNumber": 3,
+          "sounds": "dig SPANK toe",
+          "altMoves": []
+        },
+        {
+          "name": "Stephunky",
+          "altNames": "",
+          "counts": [
+            "1&a2 &"
+          ],
+          "countsNumber": 5,
+          "sounds": "step SPANK heel TOE toe",
+          "altMoves": []
+        },
+        {
+          "name": "Swiffle",
+          "altNames": [
+            "Tessa Backdraw"
+          ],
+          "counts": [
+            "1&2&3&"
+          ],
+          "countsNumber": 6,
+          "sounds": "spank HEEL toe HEEL step heel",
+          "altMoves": []
+        },
+        {
+          "name": "Triple Drawback",
+          "altNames": "",
+          "counts": [
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "spank HEEL shuffle step",
+          "altMoves": []
+        }
+      ],
+      "id": 12
+    },
+    {
+      "name": "FLAP",
+      "altNames": "",
+      "counts": [
+        "&1",
+        "a1"
+      ],
+      "countsNumber": 2,
+      "sounds": "brush step",
+      "altMoves": [
+        {
+          "name": "Double Flap",
+          "altNames": "",
+          "counts": [
+            "1&a2",
+            "&a1"
+          ],
+          "countsNumber": 4,
+          "sounds": "brush step BRUSH STEP (done in rapid succession)",
+          "altMoves": []
+        },
+        {
+          "name": "Flabbergast",
+          "altNames": "",
+          "counts": [
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "brush step DIG heel STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Flap Ball Change",
+          "altNames": "",
+          "counts": [
+            "a1 a2",
+            "&1&2"
+          ],
+          "countsNumber": 4,
+          "sounds": "brush step STEP step",
+          "altMoves": []
+        },
+        {
+          "name": "Flap Step Ball Change",
+          "altNames": "",
+          "counts": [
+            "&a1 & 2"
+          ],
+          "countsNumber": 6,
+          "sounds": "brush step STEP step STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Flap Heel",
+          "altNames": "",
+          "counts": [
+            "&1 2",
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "brush step heel",
+          "altMoves": []
+        },
+        {
+          "name": "Flap Heel Heel",
+          "altNames": "",
+          "counts": [
+            "&1&2",
+            "a1 a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "brush step HEEL heel",
+          "altMoves": []
+        },
+        {
+          "name": "Flap Heel Turn",
+          "altNames": "",
+          "counts": [
+            "&1 2 &3 4",
+            "&a1&a2"
+          ],
+          "countsNumber": 8,
+          "sounds": "brush step heel (turning)",
+          "altMoves": []
+        },
+        {
+          "name": "Frap",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "touch (brush if traveling) dig (scuff if traveling) step",
+          "altMoves": []
+        },
+        {
+          "name": "Scap",
+          "altNames": "",
+          "counts": [
+            "&1",
+            "a1"
+          ],
+          "countsNumber": 2,
+          "sounds": "scuff step",
+          "altMoves": []
+        }
+      ],
+      "id": 13
+    },
+    {
+      "name": "GRAB OFF",
+      "altNames": [
+        "see Pullbacks"
+      ],
+      "counts": [
+        "a1"
+      ],
+      "countsNumber": 2,
+      "sounds": "jump backwards and \"spank\" (hit the balls of the feet as your foot travels backwards) both your feet as they leave the floor then land on the balls of both feet",
+      "altMoves": [],
+      "id": 14
+    },
+    {
+      "name": "HEEL",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "hit your heel against the floor",
+      "altMoves": [
+        {
+          "name": "Heel-Flam",
+          "altNames": "",
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "drop one heel just slightly before the other",
+          "altMoves": []
+        },
+        {
+          "name": "Heelo",
+          "altNames": "",
+          "counts": [
+            "1&a"
+          ],
+          "countsNumber": 3,
+          "sounds": "heel HEEL toe/STEP (traveling right, toe and STEP are at the same time)",
+          "altMoves": []
+        }
+      ],
+      "id": 15
+    },
+    {
+      "name": "HEEL STAND",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "jump onto the back edges of your heels and balance",
+      "altMoves": [
+        {
+          "name": "Heel Stand Turn",
+          "altNames": "",
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "jump onto the back edges of your heels while turning",
+          "altMoves": []
+        },
+        {
+          "name": "Single Heel Stand",
+          "altNames": "",
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "jump up onto the back edge of one heel tap",
+          "altMoves": []
+        },
+        {
+          "name": "Single Heel Stand Turn",
+          "altNames": "",
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "jump up onto the back edge of one heel tap (turning)",
+          "altMoves": []
+        },
+        {
+          "name": "HOP",
+          "altNames": "",
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "propel yourself into the air off of one foot and land on the ball of that same foot",
+          "altMoves": []
+        },
+        {
+          "name": "Hop Riffle",
+          "altNames": "",
+          "counts": [
+            "1e&a"
+          ],
+          "countsNumber": 4,
+          "sounds": "hop RIFF SPANK",
+          "altMoves": []
+        },
+        {
+          "name": "Hop Scuffle",
+          "altNames": "",
+          "counts": [
+            "1&a"
+          ],
+          "countsNumber": 3,
+          "sounds": "hop DIG SPANK",
+          "altMoves": []
+        },
+        {
+          "name": "Hop Shuffle",
+          "altNames": "",
+          "counts": [
+            "1&a"
+          ],
+          "countsNumber": 3,
+          "sounds": "hop BRUSH SPANK",
+          "altMoves": []
+        },
+        {
+          "name": "Hop Shuffle Hop Scuffle Hop Riffle Hop Stomp Spank",
+          "altNames": "",
+          "counts": [
+            "1&a2&a3e&a4&a"
+          ],
+          "countsNumber": 13,
+          "sounds": "hop BRUSH SPANK hop DIG SPANK hop TOUCH DIG SPANK hop STOMP SPANK",
+          "altMoves": []
+        },
+        {
+          "name": "Twister",
+          "altNames": "",
+          "counts": [
+            "1&a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "HOP shuffle step/DIG (do the step and DIG at the same time)",
+          "altMoves": []
+        }
+      ],
+      "id": 16
+    },
+    {
+      "name": "IRISH",
+      "altNames": "",
+      "counts": [
+        "a1 a2",
+        "e&a1"
+      ],
+      "countsNumber": 4,
+      "sounds": "shuffle HOP step",
+      "altMoves": [
+        {
+          "name": "Double Irish",
+          "altNames": [
+            "version 1"
+          ],
+          "counts": [
+            "&1&2&3&4",
+            "a1 a2 a3 a4"
+          ],
+          "countsNumber": 8,
+          "sounds": "shuffle ball change, shuffle HOP step  ",
+          "altMoves": []
+        },
+        {
+          "name": "Double Irish",
+          "altNames": [
+            "version 2"
+          ],
+          "counts": [
+            "&a1&a2"
+          ],
+          "countsNumber": 6,
+          "sounds": "shuffle (front) HOP shuffle step",
+          "altMoves": []
+        },
+        {
+          "name": "Irish Flap",
+          "altNames": "",
+          "counts": [
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "shuffle HOP flap",
+          "altMoves": []
+        },
+        {
+          "name": "Irish Pullback",
+          "altNames": "",
+          "counts": [
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "shuffle SINGLE-PULLBACK step",
+          "altMoves": []
+        },
+        {
+          "name": "Irish Pullback Heel Flap Heel",
+          "altNames": "",
+          "counts": [
+            "&a1e&a*2"
+          ],
+          "countsNumber": 8,
+          "sounds": "shuffle SINGLE-PULLBACK HEEL flap heel",
+          "altMoves": []
+        },
+        {
+          "name": "Irish Pullback Flap",
+          "altNames": "",
+          "counts": [
+            "a1e&a2"
+          ],
+          "countsNumber": 6,
+          "sounds": "shuffle SINGLE-PULLBACK flap",
+          "altMoves": []
+        },
+        {
+          "name": "Irish Pullback Flap Heel",
+          "altNames": "",
+          "counts": [
+            "&a1e&a2"
+          ],
+          "countsNumber": 7,
+          "sounds": "shuffle SINGLE-PULLBACK flap heel",
+          "altMoves": []
+        },
+        {
+          "name": "Irish Pullback Toe Flap",
+          "altNames": "",
+          "counts": [
+            "&a1e&a2"
+          ],
+          "countsNumber": 7,
+          "sounds": "shuffle SINGLE-PULLBACK-TOE flap",
+          "altMoves": []
+        },
+        {
+          "name": "Irish Shiggy Bop",
+          "altNames": [
+            "Irish Shovel"
+          ],
+          "counts": [
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "shuffle SCUFF DIG step",
+          "altMoves": []
+        },
+        {
+          "name": "Irish Wing",
+          "altNames": "",
+          "counts": [
+            "a1e&a2"
+          ],
+          "countsNumber": 6,
+          "sounds": "shuffle SINGLE-WING step",
+          "altMoves": []
+        },
+        {
+          "name": "Step Irish Turn",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "step SHUFFLE hop STEP (turning)",
+          "altMoves": []
+        }
+      ],
+      "id": 17
+    },
+    {
+      "name": "JUMP",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "propel yourself into the air and land on the balls of both feet at the same time",
+      "altMoves": [
+        {
+          "name": "Jumper",
+          "altNames": "",
+          "counts": [
+            "1 2&3"
+          ],
+          "countsNumber": 4,
+          "sounds": "jump-out hop heel STEP (cross behind) (travel to the right)",
+          "altMoves": []
+        },
+        {
+          "name": "Jump Flam",
+          "altNames": "",
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "propel yourself into the air and land so that the ball of one foot hits the floor just slightly before the other foot",
+          "altMoves": []
+        },
+        {
+          "name": "Tori",
+          "altNames": "",
+          "counts": [
+            "1&a"
+          ],
+          "countsNumber": 3,
+          "sounds": "jump-together HEEL touch-out-to the-side",
+          "altMoves": []
+        }
+      ],
+      "id": 18
+    },
+    {
+      "name": "LEAP",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "push off of one foot and into the air and land on the ball of the other foot",
+      "altMoves": [
+        {
+          "name": "Leap Heel",
+          "altNames": "",
+          "counts": [
+            "1 2",
+            "1&"
+          ],
+          "countsNumber": 2,
+          "sounds": "push off of one foot and into the air and land on the ball of the other foot, heel",
+          "altMoves": []
+        }
+      ],
+      "id": 19
+    },
+    {
+      "name": "MAXIE FORD",
+      "altNames": "",
+      "counts": [
+        "1&2&3",
+        "1e&a2",
+        "1 a2 a3"
+      ],
+      "countsNumber": 5,
+      "sounds": "step SHUFFLE STEP toe (toe crosses in back)",
+      "altMoves": [
+        {
+          "name": "Double Maxie Ford",
+          "altNames": "",
+          "counts": [
+            "&1&2&3",
+            "a1e&a2",
+            "a1 a2 a3"
+          ],
+          "countsNumber": 6,
+          "sounds": "flap SHUFFLE STEP toe",
+          "altMoves": []
+        },
+        {
+          "name": "Double Maxie Ford Pullback",
+          "altNames": "",
+          "counts": [
+            "a1e&a*2"
+          ],
+          "countsNumber": 7,
+          "sounds": "flap SHUFFLE switching-pullback toe",
+          "altMoves": []
+        },
+        {
+          "name": "Double Maxie Ford Toe",
+          "altNames": "",
+          "counts": [
+            "a1e&a*2"
+          ],
+          "countsNumber": 7,
+          "sounds": "flap SHUFFLE TOE STEP toe",
+          "altMoves": []
+        },
+        {
+          "name": "Double Maxie Ford Toe Pullback",
+          "altNames": "",
+          "counts": [
+            "a1e&a**2"
+          ],
+          "countsNumber": 8,
+          "sounds": "flap SHUFFLE TOE switching-pullback toe  ",
+          "altMoves": []
+        },
+        {
+          "name": "Double Toe Maxie Ford",
+          "altNames": "",
+          "counts": [
+            "a1e&a**2"
+          ],
+          "countsNumber": 8,
+          "sounds": "flap SHUFFLE TOE toe STEP toe",
+          "altMoves": []
+        },
+        {
+          "name": "Hot Toe",
+          "altNames": "",
+          "counts": [
+            "1e&a***2"
+          ],
+          "countsNumber": 8,
+          "sounds": "step SHUFFLE TOE scuffle STEP toe (last toe crosses in back)",
+          "altMoves": []
+        },
+        {
+          "name": "Maxie Ford Clunk",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "step SHUFFLE STEP clunk (clunk crosses in back)",
+          "altMoves": []
+        },
+        {
+          "name": "Maxie Ford Pullback",
+          "altNames": "",
+          "counts": [
+            "1e&a*2"
+          ],
+          "countsNumber": 6,
+          "sounds": "step SHUFFLE switching-pullback toe",
+          "altMoves": []
+        },
+        {
+          "name": "Maxie Ford Toe",
+          "altNames": "",
+          "counts": [
+            "1e&a*2"
+          ],
+          "countsNumber": 6,
+          "sounds": "step SHUFFLE TOE STEP toe (last toe crosses in back)",
+          "altMoves": []
+        },
+        {
+          "name": "Maxie Ford Turn",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "step SHUFFLE STEP toe (turning)",
+          "altMoves": []
+        },
+        {
+          "name": "Maxie Ford Wing",
+          "altNames": "",
+          "counts": [
+            "1e&a**2"
+          ],
+          "countsNumber": 7,
+          "sounds": "step SHUFFLE switching-wing STEP toe (toe crosses in back)",
+          "altMoves": []
+        }
+      ],
+      "id": 20
+    },
+    {
+      "name": "NERVE TAPS",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "vibrate either your toe or heel tap against the floor rapidly",
+      "altMoves": [],
+      "id": 21
+    },
+    {
+      "name": "OVER THE TOP",
+      "altNames": "",
+      "counts": [
+        "1 2"
+      ],
+      "countsNumber": 2,
+      "sounds": "step KICK LEG INTO THE AIR, jump over the airborne leg and land on the original stepping foot",
+      "altMoves": [
+        {
+          "name": "PADDLES",
+          "altNames": [
+            "see Scuffle Step"
+          ],
+          "counts": [
+            "1&a"
+          ],
+          "countsNumber": 3,
+          "sounds": "dig spank step",
+          "altMoves": []
+        }
+      ],
+      "id": 22
+    },
+    {
+      "name": "PADDLE AND ROLL",
+      "altNames": [
+        "see Scuffle Step Heel"
+      ],
+      "counts": [
+        "1e&a"
+      ],
+      "countsNumber": 4,
+      "sounds": "dig spank step heel",
+      "altMoves": [],
+      "id": 23
+    },
+    {
+      "name": "PADDLE TURN",
+      "altNames": "",
+      "counts": [
+        "&a1"
+      ],
+      "countsNumber": 3,
+      "sounds": "spank step STEP (turning)",
+      "altMoves": [],
+      "id": 24
+    },
+    {
+      "name": "PARADIDDLE",
+      "altNames": [
+        "see Scuffle Step Heel"
+      ],
+      "counts": [
+        "1e&a"
+      ],
+      "countsNumber": 4,
+      "sounds": "dig spank step heel",
+      "altMoves": [],
+      "id": 25
+    },
+    {
+      "name": "PULLBACK",
+      "altNames": [
+        "Pull",
+        "Grab-Off",
+        "Pick-Up-which I consider a different step"
+      ],
+      "counts": [
+        "a1"
+      ],
+      "countsNumber": 2,
+      "sounds": "jump backwards and as your feet leave the floor they both do a spank at the same time then both feet land on the balls of the feet at the same time",
+      "altMoves": [
+        {
+          "name": "3 Sound Pullback",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "pull both feet into the air, tap your toe taps on the floor while in the air, land on the balls of the feet",
+          "altMoves": []
+        },
+        {
+          "name": "Clapull",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "pull both feet into the air, clap, land both feet on the floor at the same time",
+          "altMoves": []
+        },
+        {
+          "name": "Click Pullback",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "pull both feet into the air, click the inside of each foot together, land both feet on the floor at the same time",
+          "altMoves": []
+        },
+        {
+          "name": "Crossing Pullback",
+          "altNames": "",
+          "counts": [
+            "a1"
+          ],
+          "countsNumber": 2,
+          "sounds": "pull both feet into the air and land so that one foot is crossed in front of the other",
+          "altMoves": []
+        },
+        {
+          "name": "In and Out Pullback",
+          "altNames": [
+            "Jumping Jack Pullback"
+          ],
+          "counts": [
+            "a1 a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "start feet apart, pull both feet into the air and land feet together, pull into the air and land feet apart",
+          "altMoves": []
+        },
+        {
+          "name": "Pullback Dig Toe",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "pull both feet into the air, land on the back edge of both heels at the same time, drop both toes at the same time",
+          "altMoves": []
+        },
+        {
+          "name": "Pullback Shuffle Step",
+          "altNames": "",
+          "counts": [
+            "1&a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "pull both feet into the air, shuffle both feet at the the same time while in the air, land on both feet at the same time",
+          "altMoves": []
+        },
+        {
+          "name": "Pullback Toe",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "pull both feet into the air, hit both toes at the same time, land on both feet at the same time",
+          "altMoves": []
+        }
+      ],
+      "id": 26
+    },
+    {
+      "name": "DOUBLE PULLBACK",
+      "altNames": "",
+      "counts": [
+        "1&a2",
+        "&a*1"
+      ],
+      "countsNumber": 4,
+      "sounds": "pull PULL step STEP",
+      "altMoves": [
+        {
+          "name": "Baloney",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "pull PULL step heel TOE",
+          "altMoves": []
+        },
+        {
+          "name": "Double Pullback Toe",
+          "altNames": "",
+          "counts": [
+            "1e&a*2",
+            "&a***1"
+          ],
+          "countsNumber": 6,
+          "sounds": "pull PULL toe TOE step STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Joe Toe Pull",
+          "altNames": "",
+          "counts": [
+            "1e&a*2"
+          ],
+          "countsNumber": 6,
+          "sounds": "pull PULL toe step heel STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Jordan Pullback",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "pull PULL step heel STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Teeler",
+          "altNames": "",
+          "counts": [
+            "1e&a***2"
+          ],
+          "countsNumber": 8,
+          "sounds": "pull PULL toe TOE dig DIG step STEP",
+          "altMoves": []
+        },
+        {
+          "name": "SINGLE PULLBACK",
+          "altNames": [
+            "One-Foot Pullback"
+          ],
+          "counts": [
+            "a1"
+          ],
+          "countsNumber": 2,
+          "sounds": "start on one foot, push off the floor into the air and as your foot leaves the floor do a spank then land on the ball of the foot",
+          "altMoves": []
+        },
+        {
+          "name": "Rise",
+          "altNames": "",
+          "counts": [
+            "1e&a*2"
+          ],
+          "countsNumber": 6,
+          "sounds": "pull toe step FLAP stamp",
+          "altMoves": []
+        },
+        {
+          "name": "Single Pullback Opposite Toe",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "pull TOE step",
+          "altMoves": []
+        },
+        {
+          "name": "Single Pullback Toe",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "pull toe step",
+          "altMoves": []
+        },
+        {
+          "name": "Skipping Pullback",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "single pullback STEP",
+          "altMoves": []
+        },
+        {
+          "name": "SWITCHING PULLBACK",
+          "altNames": [
+            "Swapping",
+            "Alternating Pullback"
+          ],
+          "counts": [
+            "a1"
+          ],
+          "countsNumber": 2,
+          "sounds": "start on one foot, push off the floor into the air and as your foot leaves the floor do a spank then land on the ball of the other foot",
+          "altMoves": []
+        },
+        {
+          "name": "Maddie Mill",
+          "altNames": "",
+          "counts": [
+            "1&a"
+          ],
+          "countsNumber": 3,
+          "sounds": "clunk SWITCHING-PULLBACK",
+          "altMoves": []
+        },
+        {
+          "name": "Switching Pullback Flap",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "start on one foot, push off the floor into the air and as your foot leaves the floor do a spank then FLAP on the other foot   ",
+          "altMoves": []
+        },
+        {
+          "name": "Switching Pullback Flap Heel Toe",
+          "altNames": "",
+          "counts": [
+            "&a**1"
+          ],
+          "countsNumber": 5,
+          "sounds": "start on one foot, push off the floor into the air and as your foot leaves the floor do a spank then FLAP HEEL on the other foot, toe",
+          "altMoves": []
+        },
+        {
+          "name": "Switching Pullback Toe",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "start on one foot, push off the floor into the air and as your foot leaves the floor do a spank then STEP on the other foot, toe",
+          "altMoves": []
+        },
+        {
+          "name": "Switching Toe Pullback",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "start on one foot, push off the floor into the air and as your foot leaves the floor do a spank, toe, then STEP on the other foot",
+          "altMoves": []
+        },
+        {
+          "name": "Treadmill",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "brush SWITCHING-PULLBACK",
+          "altMoves": []
+        },
+        {
+          "name": "Treadmill Heel",
+          "altNames": "",
+          "counts": [
+            "e&a1"
+          ],
+          "countsNumber": 4,
+          "sounds": "brush SWITCHING-PULLBACK heel",
+          "altMoves": []
+        },
+        {
+          "name": "RIFF",
+          "altNames": "",
+          "counts": [
+            "a1"
+          ],
+          "countsNumber": 2,
+          "sounds": "(this is taught many different ways) touch dig or touch scuff or brush scuff",
+          "altMoves": []
+        },
+        {
+          "name": "3-Beat Riff Walk",
+          "altNames": [
+            "Slam",
+            "Flam",
+            "Slurp",
+            "Third"
+          ],
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "touch dig toe or brush dig toe",
+          "altMoves": []
+        },
+        {
+          "name": "4-Beat Riff Walk",
+          "altNames": "",
+          "counts": [
+            "a1 a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "touch scuff dig toe or brush scuff dig toe",
+          "altMoves": []
+        },
+        {
+          "name": "5-Beat Riff Walk",
+          "altNames": "",
+          "counts": [
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "touch scuff HEEL dig toe or brush scuff HEEL dig toe",
+          "altMoves": []
+        },
+        {
+          "name": "6-Beat Riff Walk",
+          "altNames": "",
+          "counts": [
+            "&a1&a2"
+          ],
+          "countsNumber": 6,
+          "sounds": "touch scuff HEEL dig toe heel or brush scuff HEEL dig toe heel",
+          "altMoves": []
+        },
+        {
+          "name": "7-Beat Riff Walk",
+          "altNames": "",
+          "counts": [
+            "&a1e&a2"
+          ],
+          "countsNumber": 7,
+          "sounds": "touch scuff HEEL dig toe HEEL heel or brush scuff HEEL dig toe HEEL heel",
+          "altMoves": []
+        },
+        {
+          "name": "8-100 Beat Riff Walk",
+          "altNames": "",
+          "counts": [
+            "e&a1e&a2"
+          ],
+          "countsNumber": 8,
+          "sounds": "touch scuff HEEL dig toe HEEL heel TOE or brush scuff HEEL dig toe HEEL heel TOE, for riff walks higher than 8",
+          "altMoves": []
+        },
+        {
+          "name": "Annalisa’s 8-Beat Riff Walk",
+          "altNames": "",
+          "counts": [
+            "e&a1e&a2"
+          ],
+          "countsNumber": 8,
+          "sounds": "touch scuff HEEL dig toe SPANK STEP stamp or brush scuff HEEL dig toe SPANK STEP stamp",
+          "altMoves": []
+        },
+        {
+          "name": "Hines Riff",
+          "altNames": [
+            "Split Riff"
+          ],
+          "counts": [
+            "&a**1"
+          ],
+          "countsNumber": 5,
+          "sounds": "touch scuff PULL dig STEP or brush scuff PULL dig STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Nicaela Quick- a1e&a2",
+          "altNames": "",
+          "counts": [
+            "spank TOE touch dig toe STAMP"
+          ],
+          "countsNumber": 28,
+          "altMoves": []
+        },
+        {
+          "name": "Stamp Step Riff Heel Turn",
+          "altNames": "",
+          "counts": [
+            "1 2&a3",
+            "1 &a*2"
+          ],
+          "countsNumber": 5,
+          "sounds": "stamp STEP touch scuff HEEL or stamp STEP brush scuff HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Step Riff Brush Heel",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "step TOUCH DIG BRUSH heel or step BRUSH DIG BRUSH heel",
+          "altMoves": []
+        },
+        {
+          "name": "Step Riff Heel",
+          "altNames": [
+            "Hop Riff Heel",
+            "Leap Riff Heel"
+          ],
+          "counts": [
+            "1&a2",
+            "&a*1"
+          ],
+          "countsNumber": 4,
+          "sounds": "step TOUCH DIG heel or step BRUSH SCUFF heel",
+          "altMoves": []
+        }
+      ],
+      "id": 27
+    },
+    {
+      "name": "RIFFLE",
+      "altNames": "",
+      "counts": [
+        "&a1"
+      ],
+      "countsNumber": 3,
+      "sounds": "touch dig spank or brush dig spank",
+      "altMoves": [
+        {
+          "name": "Broken Riff",
+          "altNames": "",
+          "counts": [
+            "1e&a**2"
+          ],
+          "countsNumber": 7,
+          "sounds": "riffle HEEL hit-outside-of-toe-tap hit-outside-of-heel-tap HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Pendulum Riffle",
+          "altNames": "",
+          "counts": [
+            "&a1&a2"
+          ],
+          "countsNumber": 6,
+          "sounds": "touch (or brush) dig spank (cross other foot), touch (or brush) dig spank (uncross)",
+          "altMoves": []
+        },
+        {
+          "name": "Riffle Dig Toe",
+          "altNames": "",
+          "counts": [
+            "a1&a2",
+            "e&a*1"
+          ],
+          "countsNumber": 5,
+          "sounds": "touch dig spank dig toe or brush dig spank dig toe",
+          "altMoves": []
+        },
+        {
+          "name": "Riffle Step",
+          "altNames": "",
+          "counts": [
+            "e&a1"
+          ],
+          "countsNumber": 4,
+          "sounds": "touch dig spank step or brush dig spank step",
+          "altMoves": []
+        },
+        {
+          "name": "Riffle Step Heel",
+          "altNames": "",
+          "counts": [
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "touch dig spank step heel or brush dig spank step heel",
+          "altMoves": []
+        },
+        {
+          "name": "Riff Raff",
+          "altNames": "",
+          "counts": [
+            "1e&*2&a*3"
+          ],
+          "countsNumber": 9,
+          "sounds": "HEEL riffle HEEL riff TOE step",
+          "altMoves": []
+        },
+        {
+          "name": "Ruffle",
+          "altNames": "",
+          "counts": [
+            "1e&a**2"
+          ],
+          "countsNumber": 7,
+          "sounds": "touch dig spank toe STEP HEEL smack (step) or brush dig spank toe STEP HEEL smack (step)",
+          "altMoves": []
+        }
+      ],
+      "id": 28
+    },
+    {
+      "name": "SCUFF",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "swing your foot forward and hit the back edge of the heel tap as the foot swings  ",
+      "altMoves": [
+        {
+          "name": "Bam Bam",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "stamp SCUFF jump-out",
+          "altMoves": []
+        },
+        {
+          "name": "Double Scuff Front",
+          "altNames": "",
+          "counts": [
+            "1e&2",
+            "&a*1"
+          ],
+          "countsNumber": 4,
+          "sounds": "scuff SCUFF step STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Radiohead",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "scuff SINGLE-TOE-STAND step",
+          "altMoves": []
+        },
+        {
+          "name": "Scuff Dig Ball Change",
+          "altNames": "",
+          "counts": [
+            "&1&2"
+          ],
+          "countsNumber": 4,
+          "sounds": "scuff dig STEP step",
+          "altMoves": []
+        },
+        {
+          "name": "Scuff Dig Toe",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "scuff dig toe       ",
+          "altMoves": []
+        },
+        {
+          "name": "Scuff Front",
+          "altNames": "",
+          "counts": [
+            "a1"
+          ],
+          "countsNumber": 2,
+          "sounds": "scuff both feet at the same time then land on the balls of both feet at the same time",
+          "altMoves": []
+        },
+        {
+          "name": "Scuff Heel Step",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "scuff HEEL step",
+          "altMoves": []
+        },
+        {
+          "name": "Shiggy Bop",
+          "altNames": [
+            "Shovel",
+            "Heel Slide"
+          ],
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "with your weight on one foot scuff that foot forward, dig, STEP  ",
+          "altMoves": []
+        },
+        {
+          "name": "Skunk",
+          "altNames": "",
+          "counts": [
+            "e&a1",
+            "&a*1"
+          ],
+          "countsNumber": 4,
+          "sounds": "scuff, hit the inside of the toe tap, hit the inside of the heel tap, HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Steel",
+          "altNames": "",
+          "counts": [
+            "1e&a2",
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "dig spank scuff dig toe",
+          "altMoves": []
+        }
+      ],
+      "id": 29
+    },
+    {
+      "name": "SCUFFLE",
+      "altNames": [
+        "Dig Brush",
+        "Dig Spank",
+        "Paddle"
+      ],
+      "counts": [
+        "&1",
+        "a1"
+      ],
+      "countsNumber": 2,
+      "sounds": "dig spank",
+      "altMoves": [
+        {
+          "name": "Double Scuffle",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "dig spank dig spank",
+          "altMoves": []
+        },
+        {
+          "name": "Double Scuffle Step Heel",
+          "altNames": "",
+          "counts": [
+            "1e&a2e",
+            "1&a2&a"
+          ],
+          "countsNumber": 6,
+          "sounds": "dig spank dig spank step heel   ",
+          "altMoves": []
+        },
+        {
+          "name": "Scopper",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "dig spank DIG step STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Scout",
+          "altNames": "",
+          "counts": [
+            "1&a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "scuffle scuff jump-out",
+          "altMoves": []
+        },
+        {
+          "name": "Scuffaloeo",
+          "altNames": "",
+          "counts": [
+            "1&a2&a"
+          ],
+          "countsNumber": 6,
+          "sounds": "dig spank step DIG TOE step",
+          "altMoves": []
+        },
+        {
+          "name": "Scuffle Ball Change",
+          "altNames": "",
+          "counts": [
+            "&1&2",
+            "1e&a"
+          ],
+          "countsNumber": 4,
+          "sounds": "dig spank step STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Scuffle Dig Toe",
+          "altNames": "",
+          "counts": [
+            "e&a1"
+          ],
+          "countsNumber": 4,
+          "sounds": "dig spank dig toe",
+          "altMoves": []
+        },
+        {
+          "name": "Scuffle Pullback",
+          "altNames": "",
+          "counts": [
+            "e&a1"
+          ],
+          "countsNumber": 4,
+          "sounds": "dig spank SWITCHING-PULLBACK",
+          "altMoves": []
+        },
+        {
+          "name": "Scuffle Step",
+          "altNames": [
+            "Paddles",
+            "Dig Brush Step"
+          ],
+          "counts": [
+            "1&a"
+          ],
+          "countsNumber": 3,
+          "sounds": "dig spank step",
+          "altMoves": []
+        },
+        {
+          "name": "Scuffle Step Heel",
+          "altNames": [
+            "Dig Brush Toe Heel",
+            "Paddle and Roll",
+            "Paradiddle"
+          ],
+          "counts": [
+            "1&2&",
+            "1e&a"
+          ],
+          "countsNumber": 4,
+          "sounds": "dig spank step heel",
+          "altMoves": []
+        },
+        {
+          "name": "Scuffle Step Turn",
+          "altNames": "",
+          "counts": [
+            "1&a2&a"
+          ],
+          "countsNumber": 6,
+          "sounds": "dig spank step DIG SPANK STEP (turning)",
+          "altMoves": []
+        },
+        {
+          "name": "Scuffle Toe Slap Heel",
+          "altNames": "",
+          "counts": [
+            "&a1&a2"
+          ],
+          "countsNumber": 6,
+          "sounds": "dig spank TOE brush touch HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Scuffit",
+          "altNames": "",
+          "counts": [
+            "1e&a"
+          ],
+          "countsNumber": 4,
+          "sounds": "dig spank scuff step",
+          "altMoves": []
+        },
+        {
+          "name": "Scuffout",
+          "altNames": "",
+          "counts": [
+            "1&a2&a3"
+          ],
+          "countsNumber": 7,
+          "sounds": "dig spank HEEL scuff HEEL TOE smack (step)",
+          "altMoves": []
+        },
+        {
+          "name": "Squiggly Wiggly",
+          "altNames": "",
+          "counts": [
+            "1e&a*2"
+          ],
+          "countsNumber": 6,
+          "sounds": "dig spank toe DIG step STEP    ",
+          "altMoves": []
+        },
+        {
+          "name": "SHIM SHAM",
+          "altNames": "",
+          "counts": [
+            "[8 a1 2 a3 4 a5 a6 a7]3 times, 8 1 2 3& &5 6 7"
+          ],
+          "countsNumber": 45,
+          "sounds": "[stomp spank step. STOMP SPANKS STEP, stomp spank step STEP, stomp spank step]3 times, stamp TOE STEP HOP step hop STEP jump-out jump-in",
+          "altMoves": []
+        }
+      ],
+      "id": 30
+    },
+    {
+      "name": "SHIRLEY TEMPLE",
+      "altNames": [
+        "see Alexander"
+      ],
+      "counts": [
+        "&1&2&3&4",
+        "a1 a2 a3 a4"
+      ],
+      "countsNumber": 8,
+      "sounds": "flap HEEL heel SPANK heel TOE heel",
+      "altMoves": [],
+      "id": 31
+    },
+    {
+      "name": "SHUFFLE",
+      "altNames": "",
+      "counts": [
+        "&1",
+        "a1"
+      ],
+      "countsNumber": 2,
+      "sounds": "brush spank  ",
+      "altMoves": [
+        {
+          "name": "Blur",
+          "altNames": "",
+          "counts": [
+            "1&a2&a3"
+          ],
+          "countsNumber": 7,
+          "sounds": "step SHUFFLE STEP scuff dig toe",
+          "altMoves": []
+        },
+        {
+          "name": "Double Shuffle",
+          "altNames": "",
+          "counts": [
+            "1&a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "brush spank brush spank",
+          "altMoves": []
+        },
+        {
+          "name": "Hoofer’s Shuffle",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "hit the outside of the ball tap, straighten the leg for a split second and let the ball tap brush a tiny bit to the side, tap the ball tap in place or slightly to the other side",
+          "altMoves": []
+        },
+        {
+          "name": "Hop Shuffle",
+          "altNames": "",
+          "counts": [
+            "1&a"
+          ],
+          "countsNumber": 3,
+          "sounds": "hop SHUFFLE",
+          "altMoves": []
+        },
+        {
+          "name": "Pendulum Shuffle",
+          "altNames": "",
+          "counts": [
+            "a1 a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "brush to the front then spank in front of the standing foot, then brush back out to the front and then spank diagonally back to the side",
+          "altMoves": []
+        },
+        {
+          "name": "Rooster",
+          "altNames": "",
+          "counts": [
+            "&a**1&2"
+          ],
+          "countsNumber": 7,
+          "sounds": "hoofer’s shuffle HOP HEEL step heel",
+          "altMoves": []
+        },
+        {
+          "name": "Sh-sh-sh-shuffle",
+          "altNames": "",
+          "counts": [
+            "1e&a2e&a3"
+          ],
+          "countsNumber": 9,
+          "sounds": "STEP shuffle (as you shuffle push off the left foot into the air) shuffle shuffle (while in the air - yeah I know) step STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Shuffle Heel",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "brush spank HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Traveling Pendulum Shuffle",
+          "altNames": "",
+          "counts": [
+            "&a1&a2"
+          ],
+          "countsNumber": 6,
+          "sounds": "brush spank TOE brush spank HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "SHUFFLE BALL CHANGE",
+          "altNames": "",
+          "counts": [
+            "&1&2",
+            "a1 a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "brush spank step STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Shuffle Ball Change Heel",
+          "altNames": "",
+          "counts": [
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "brush spank step STEP HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Shuffle Dig Step Shuffle Toe Step",
+          "altNames": "",
+          "counts": [
+            "&1&2&3&4"
+          ],
+          "countsNumber": 8,
+          "sounds": "brush spank toe STEP brush spank dig STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Shuffle Pullback Ball Change",
+          "altNames": "",
+          "counts": [
+            "a1&a2",
+            "e&a*1"
+          ],
+          "countsNumber": 5,
+          "sounds": "brush spank SWITCHING-PULLBACK STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Shuffle Toe Pullback Ball Change",
+          "altNames": "",
+          "counts": [
+            "a1e&a2"
+          ],
+          "countsNumber": 6,
+          "sounds": "brush spank toe SWITCHING-PULLBACK STEP",
+          "altMoves": []
+        },
+        {
+          "name": "SHUFFLE STEP",
+          "altNames": [
+            "Running Shuffle",
+            "Leap Shuffles",
+            "Jogging Shuffles"
+          ],
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "brush spank step",
+          "altMoves": []
+        },
+        {
+          "name": "Penguin",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "brush spank dig (put your weight on the dig)",
+          "altMoves": []
+        },
+        {
+          "name": "Shuffle Dig Toe",
+          "altNames": "",
+          "counts": [
+            "&1&2",
+            "e&a1"
+          ],
+          "countsNumber": 4,
+          "sounds": "brush spank dig toe",
+          "altMoves": []
+        },
+        {
+          "name": "Shuffle Flap",
+          "altNames": "",
+          "counts": [
+            "&1&2",
+            "e&a1"
+          ],
+          "countsNumber": 4,
+          "sounds": "brush spank brush step",
+          "altMoves": []
+        },
+        {
+          "name": "Shuffle Heel Step",
+          "altNames": "",
+          "counts": [
+            "e&a1"
+          ],
+          "countsNumber": 4,
+          "sounds": "brush spank HEEL step",
+          "altMoves": []
+        },
+        {
+          "name": "Shuffle Heel Step Heel",
+          "altNames": "",
+          "counts": [
+            "a1&a2",
+            "e&a*1"
+          ],
+          "countsNumber": 5,
+          "sounds": "brush spank HEEL step heel",
+          "altMoves": []
+        },
+        {
+          "name": "Shuffle Pullback",
+          "altNames": "",
+          "counts": [
+            "e&a1"
+          ],
+          "countsNumber": 4,
+          "sounds": "brush spank SWITCHING-PULLBACK",
+          "altMoves": []
+        },
+        {
+          "name": "Shuffle Pullback Heel",
+          "altNames": "",
+          "counts": [
+            "e&a*1"
+          ],
+          "countsNumber": 5,
+          "sounds": "brush spank SWITCHING-PULLBACK heel",
+          "altMoves": []
+        },
+        {
+          "name": "Shuffle Step Heel",
+          "altNames": "",
+          "counts": [
+            "&1&2",
+            "e&a1"
+          ],
+          "countsNumber": 4,
+          "sounds": "brush spank step heel",
+          "altMoves": []
+        },
+        {
+          "name": "Shuffle Toe Step",
+          "altNames": "",
+          "counts": [
+            "&1&2",
+            "e&a1"
+          ],
+          "countsNumber": 4,
+          "sounds": "brush spank toe step    ",
+          "altMoves": []
+        },
+        {
+          "name": "Shuffle Toe Toe Step",
+          "altNames": "",
+          "counts": [
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "brush spank toe TOE step        ",
+          "altMoves": []
+        },
+        {
+          "name": "Shunk",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "brush spank clunk/STEP (do the clunk and step at the same time)",
+          "altMoves": []
+        },
+        {
+          "name": "Toe Stand Shuffle Step",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "brush spank toe (stand)",
+          "altMoves": []
+        },
+        {
+          "name": "Tucker",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "step SHUFFLE pull jump",
+          "altMoves": []
+        },
+        {
+          "name": "SLAM",
+          "altNames": "",
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "jump-out with straight legs and barely go into the air (it's more like a scoot back on your toes)",
+          "altMoves": []
+        }
+      ],
+      "id": 32
+    },
+    {
+      "name": "SLAP",
+      "altNames": "",
+      "counts": [
+        "a1"
+      ],
+      "countsNumber": 2,
+      "sounds": "brush touch",
+      "altMoves": [],
+      "id": 33
+    },
+    {
+      "name": "SLIDE",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "run or push off of one leg and allow your feet to glide along the floor without leaving the floor",
+      "altMoves": [
+        {
+          "name": "Dig Slide  - 1",
+          "altNames": "",
+          "counts": [
+            "run",
+            "push off of one leg and allow your feet to glide along the floor without leaving the floor and the front foot should have the back edge of the heel touching the floor during the glide"
+          ],
+          "countsNumber": 3,
+          "altMoves": []
+        },
+        {
+          "name": "Jimmy",
+          "altNames": "",
+          "counts": [
+            "&a1 & 2"
+          ],
+          "countsNumber": 6,
+          "sounds": "scuff dig CHUG/drag-right-dig-out-to-side step STEP",
+          "altMoves": []
+        }
+      ],
+      "id": 34
+    },
+    {
+      "name": "SMACK",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "step on the ball of the foot with a straight leg (can also be done without weight)",
+      "altMoves": [],
+      "id": 35
+    },
+    {
+      "name": "SPANK",
+      "altNames": [
+        "Brush Back",
+        "Draw",
+        "Pull"
+      ],
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "swing the foot back (coming from the front or diagonally side) hitting only the ball tap  ",
+      "altMoves": [
+        {
+          "name": "Spackle",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "spank toe DIG TOE smack (step)",
+          "altMoves": []
+        },
+        {
+          "name": "Spat",
+          "altNames": "",
+          "counts": [
+            "&a*1"
+          ],
+          "countsNumber": 4,
+          "sounds": "spank single-toe-stand FLAP",
+          "altMoves": []
+        },
+        {
+          "name": "Spots",
+          "altNames": "",
+          "counts": [
+            "&1&2"
+          ],
+          "countsNumber": 4,
+          "sounds": "spank HOP toe step",
+          "altMoves": []
+        },
+        {
+          "name": "Sugar Bop",
+          "altNames": "",
+          "counts": [
+            "a1&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "spank dig (turn foot inward) TOE toe (turn outward) STEP",
+          "altMoves": []
+        },
+        {
+          "name": "SPANK STEP",
+          "altNames": [
+            "Back Flap"
+          ],
+          "counts": [
+            "&1",
+            "a1"
+          ],
+          "countsNumber": 2,
+          "sounds": "swing the foot back (coming from the front or diagonally side) hitting only the ball tap, step",
+          "altMoves": []
+        },
+        {
+          "name": "Boomerang",
+          "altNames": "",
+          "counts": [
+            "1&2&",
+            "1e&a"
+          ],
+          "countsNumber": 4,
+          "sounds": "stamp STEP spank step",
+          "altMoves": []
+        },
+        {
+          "name": "Paddle Turn",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "spank step STEP (turning)",
+          "altMoves": []
+        },
+        {
+          "name": "Spank Step Ball Change",
+          "altNames": "",
+          "counts": [
+            "&1&2",
+            "a1 a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "spank step STEP step",
+          "altMoves": []
+        },
+        {
+          "name": "Spank Step Heel",
+          "altNames": "",
+          "counts": [
+            "a1 2",
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "spank step heel",
+          "altMoves": []
+        },
+        {
+          "name": "Spank Toe Step",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "spank toe step",
+          "altMoves": []
+        },
+        {
+          "name": "STAMP",
+          "altNames": "",
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "put your foot down flat against the floor with your weight on it",
+          "altMoves": []
+        },
+        {
+          "name": "Stamp Step Toe Heel Turn",
+          "altNames": "",
+          "counts": [
+            "1 2&3"
+          ],
+          "countsNumber": 4,
+          "sounds": "stamp STEP toe HEEL (turning)",
+          "altMoves": []
+        }
+      ],
+      "id": 36
+    },
+    {
+      "name": "STEP",
+      "altNames": [
+        "Leap"
+      ],
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "lift the foot and place the ball of the foot on the floor with weight on it (leap is the same except you are \"jumping\" onto the foot instead of just placing it down)  ",
+      "altMoves": [
+        {
+          "name": "Hit",
+          "altNames": "",
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "HEEL/step",
+          "altMoves": []
+        }
+      ],
+      "id": 37
+    },
+    {
+      "name": "STEP HEEL",
+      "altNames": "",
+      "counts": [
+        "1&"
+      ],
+      "countsNumber": 2,
+      "sounds": "step heel",
+      "altMoves": [
+        {
+          "name": "Flam",
+          "altNames": "",
+          "counts": [
+            "*1"
+          ],
+          "countsNumber": 2,
+          "sounds": "do a step followed by a heel with hardly any space between them",
+          "altMoves": []
+        },
+        {
+          "name": "Step Heel Heel",
+          "altNames": "",
+          "counts": [
+            "1&a"
+          ],
+          "countsNumber": 3,
+          "sounds": "step HEEL heel",
+          "altMoves": []
+        },
+        {
+          "name": "Step Heel Turn",
+          "altNames": "",
+          "counts": [
+            "1&2&"
+          ],
+          "countsNumber": 4,
+          "sounds": "step heel STEP HEEL (turning",
+          "altMoves": []
+        }
+      ],
+      "id": 38
+    },
+    {
+      "name": "STEP TOE HOP TURN",
+      "altNames": "",
+      "counts": [
+        "1&a2&a"
+      ],
+      "countsNumber": 6,
+      "sounds": "step TOE hop STEP toe HOP (turning -2 sets per rotation)",
+      "altMoves": [],
+      "id": 39
+    },
+    {
+      "name": "STOMP",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "lift the foot and place it flat against the floor with NO weight on it",
+      "altMoves": [
+        {
+          "name": "Toro",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "stomp scuff smack (step)",
+          "altMoves": []
+        },
+        {
+          "name": "BUCK SINGLE TIME STEP",
+          "altNames": "",
+          "counts": [
+            "8 1 2&3&4 5 6&7&",
+            "8 1 2 a3 a4 5 6 a7 a  - stomp (some people add a spank after the stomp) HOP step FLAP step"
+          ],
+          "countsNumber": 15,
+          "altMoves": []
+        },
+        {
+          "name": "Buck Double Time Step",
+          "altNames": "",
+          "counts": [
+            "8 1&2&3&4 5&6&7&",
+            "8 1 a2 a3 a4 5 a6 a7 a"
+          ],
+          "countsNumber": 15,
+          "sounds": "stomp (some people add a spank after the stomp) HOP flap FLAP step",
+          "altMoves": []
+        },
+        {
+          "name": "Buck Triple Time Step",
+          "altNames": "",
+          "counts": [
+            "8 1&a2&3&4 5&a6&7&",
+            "8 1&a2 a3 a4 5&a6 a7 a"
+          ],
+          "countsNumber": 17,
+          "sounds": "stomp (some people add a spank after the stomp) HOP shuffle step FLAP step",
+          "altMoves": []
+        },
+        {
+          "name": "Buck Quadruple Time Step",
+          "altNames": "",
+          "counts": [
+            "8 1e&a2&3&4 5e&a6&7&",
+            "8 1&ea2 a3 a4 5e&a6 a7 a"
+          ],
+          "countsNumber": 19,
+          "sounds": "stomp (some people add a spank after the stomp) HOP shuffle step heel FLAP step",
+          "altMoves": []
+        },
+        {
+          "name": "CRAMP ROLL TIME STEP",
+          "altNames": "",
+          "counts": [
+            "8 1 2&a3 a"
+          ],
+          "countsNumber": 9,
+          "sounds": "stomp HOP cramp roll STEP",
+          "altMoves": []
+        },
+        {
+          "name": "HEEL GRIND TIME STEP",
+          "altNames": "",
+          "counts": [
+            "8&a1&2&3 4&a5&6&7, 8&a1&2&3&4&5&6&7"
+          ],
+          "countsNumber": 34,
+          "sounds": "hop SHUFFLE STEP dig STEP spank step, hop SHUFFLE STEP dig STEP spank step, hop SHUFFLE STEP dig STEP spank step, shuffle ball change flap ball change",
+          "altMoves": []
+        },
+        {
+          "name": "SINGLE TRAVELING TIME STEP",
+          "altNames": "",
+          "counts": [
+            "8&1&2&3&4 5 6&7&"
+          ],
+          "countsNumber": 15,
+          "sounds": "shuffle step SHUFFLE BALL CHANGE BALL CHANGE hop STEP shuffle step (some people start it with the hop)",
+          "altMoves": []
+        },
+        {
+          "name": "Double Traveling Time Step",
+          "altNames": "",
+          "counts": [
+            "8&1&2&3&4 5&6&7&"
+          ],
+          "countsNumber": 15,
+          "sounds": "shuffle step SHUFFLE BALL CHANGE BALL CHANGE hop FLAP shuffle step (some people start it with the hop)",
+          "altMoves": []
+        },
+        {
+          "name": "Triple Traveling Time Step",
+          "altNames": "",
+          "counts": [
+            "8&1&2&3&4 5&a6&7&"
+          ],
+          "countsNumber": 16,
+          "sounds": "shuffle step SHUFFLE BALL CHANGE BALL CHANGE hop SHUFFLE STEP shuffle step (some people start it with the hop)",
+          "altMoves": []
+        },
+        {
+          "name": "Quadruple Traveling Time Step",
+          "altNames": "",
+          "counts": [
+            "8&1&2&3&4 5e&a6&7&"
+          ],
+          "countsNumber": 17,
+          "sounds": "shuffle step SHUFFLE BALL CHANGE BALL CHANGE hop SHUFFLE STEP HEEL shuffle step (some people start it with the hop)",
+          "altMoves": []
+        },
+        {
+          "name": "TRADITIONAL SINGLE TIME STEP",
+          "altNames": "",
+          "counts": [
+            "8&1 2&3&4&5 6&7&",
+            "8 a1 2 a3 a4 a5 6 a7 a"
+          ],
+          "countsNumber": 15,
+          "sounds": "shuffle HOP step FLAP step",
+          "altMoves": []
+        },
+        {
+          "name": "Traditional Double Time Step- 8&1&2&3&4&5&6&7& or 8 a1 a2 a3 a4 a5 a6 a7 a",
+          "altNames": "",
+          "counts": [
+            "shuffle HOP flap FLAP step"
+          ],
+          "countsNumber": 25,
+          "altMoves": []
+        },
+        {
+          "name": "Traditional Triple Time Step",
+          "altNames": "",
+          "counts": [
+            "8&1&a2&3&4&5&a6&7&",
+            "8 a1&a2 a3 a4 a5&a6 a7 a"
+          ],
+          "countsNumber": 18,
+          "sounds": "shuffle HOP shuffle step FLAP step",
+          "altMoves": []
+        },
+        {
+          "name": "Traditional Quadruple Time Step",
+          "altNames": "",
+          "counts": [
+            "8&1e&a2&3&4&5e&a6&7&",
+            "8 a1e&a2 a3 a4 a5e&a6 a7 a"
+          ],
+          "countsNumber": 20,
+          "sounds": "shuffle HOP shuffle step heel FLAP step",
+          "altMoves": []
+        }
+      ],
+      "id": 40
+    },
+    {
+      "name": "TOE [flat]",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "lift the toe but keep the heel on the floor, then drop the toe to the floor. There is another toe that I call a toe where you lift your foot all the way off the floor and hit the very front edge of the toe on the floor",
+      "altMoves": [
+        {
+          "name": "Toe Toe Heel Heel",
+          "altNames": "",
+          "counts": [
+            "1&2&"
+          ],
+          "countsNumber": 4,
+          "sounds": "toe TOE heel HEEL",
+          "altMoves": []
+        }
+      ],
+      "id": 41
+    },
+    {
+      "name": "TOE",
+      "altNames": [
+        "TIP"
+      ],
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "lift the foot all the way off the floor and hit the very front edge of the toe on the floor",
+      "altMoves": [
+        {
+          "name": "Dodo",
+          "altNames": "",
+          "counts": [
+            "1 2"
+          ],
+          "countsNumber": 2,
+          "sounds": "HOP/toe (both at the same time), HEEL/toe (both at the same time)",
+          "altMoves": []
+        },
+        {
+          "name": "Rorymeister",
+          "altNames": "",
+          "counts": [
+            "1&a2&a"
+          ],
+          "countsNumber": 6,
+          "sounds": "stamp TOE TOE toe step STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Spear",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "toe HOP HEEL",
+          "altMoves": []
+        },
+        {
+          "name": "Toto",
+          "altNames": "",
+          "counts": [
+            "1&a2&a3"
+          ],
+          "countsNumber": 7,
+          "sounds": "toe SINGLE-PULLBACK toe HOP HEEL smack (step)",
+          "altMoves": []
+        }
+      ],
+      "id": 42
+    },
+    {
+      "name": "TOE STAND",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "\"jump\" up to the tip of your toes and balance on them",
+      "altMoves": [
+        {
+          "name": "Double Toe Stand",
+          "altNames": "",
+          "counts": [
+            "1&a2"
+          ],
+          "countsNumber": 4,
+          "sounds": "toe TOE step STEP",
+          "altMoves": []
+        },
+        {
+          "name": "Single Toe Stand",
+          "altNames": [
+            "One Foot Toe Stand"
+          ],
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "\"jump\" up to the tip toe of one foot and balance on it",
+          "altMoves": []
+        },
+        {
+          "name": "Single Toe Stand Turn",
+          "altNames": "",
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "\"jump\" up to the tip toe of one foot and balance on it (turning)",
+          "altMoves": []
+        },
+        {
+          "name": "Toe Stand Turn",
+          "altNames": "",
+          "counts": [
+            "1"
+          ],
+          "countsNumber": 1,
+          "sounds": "\"jump\" up to the tip of your toes and balance on them (turning) ",
+          "altMoves": []
+        }
+      ],
+      "id": 43
+    },
+    {
+      "name": "TOUCH",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "lift the foot and place the ball of the foot on the floor with NO weight on it",
+      "altMoves": [],
+      "id": 44
+    },
+    {
+      "name": "TRAVEL STEP",
+      "altNames": "",
+      "counts": [
+        "1&a"
+      ],
+      "countsNumber": 3,
+      "sounds": "step out to the side, SPANK, STEP IN",
+      "altMoves": [],
+      "id": 45
+    },
+    {
+      "name": "TRENCHES [Hoofer & Broadway Style]",
+      "altNames": "",
+      "counts": [
+        "1"
+      ],
+      "countsNumber": 1,
+      "sounds": "step on one foot while the other slides backwards coming off the floor at the end of the slide",
+      "altMoves": [],
+      "id": 46
+    },
+    {
+      "name": "WALTZ CLOG",
+      "altNames": "",
+      "counts": [
+        "1&2&3",
+        "1e&a2",
+        "1 a2 a3"
+      ],
+      "countsNumber": 5,
+      "sounds": "step SHUFFLE BALL CHANGE",
+      "altMoves": [
+        {
+          "name": "Double Waltz Clog",
+          "altNames": "",
+          "counts": [
+            "&1&2&3",
+            "a1e&a2"
+          ],
+          "countsNumber": 6,
+          "sounds": "flap SHUFFLE BALL CHANGE",
+          "altMoves": []
+        },
+        {
+          "name": "Double Waltz Clog Pullback",
+          "altNames": "",
+          "counts": [
+            "a1e&a*2"
+          ],
+          "countsNumber": 7,
+          "sounds": "flap SHUFFLE switching-pullback step",
+          "altMoves": []
+        },
+        {
+          "name": "Double Waltz Clog Toe Pullback",
+          "altNames": "",
+          "counts": [
+            "a1e&a**2"
+          ],
+          "countsNumber": 8,
+          "sounds": "flap SHUFFLE TOE switching-pullback step",
+          "altMoves": []
+        },
+        {
+          "name": "Double Waltz Clog Wing",
+          "altNames": "",
+          "counts": [
+            "a1e&a**2"
+          ],
+          "countsNumber": 8,
+          "sounds": "flap SHUFFLE switching-wing step",
+          "altMoves": []
+        },
+        {
+          "name": "Waltz Clog Pullback",
+          "altNames": "",
+          "counts": [
+            "1e&a*2"
+          ],
+          "countsNumber": 6,
+          "sounds": "step SHUFFLE switching-pullback step  ",
+          "altMoves": []
+        },
+        {
+          "name": "Waltz Clog Scuffle",
+          "altNames": "",
+          "counts": [
+            "1e&a**2"
+          ],
+          "countsNumber": 7,
+          "sounds": "step SHUFFLE scuffle STEP step",
+          "altMoves": []
+        }
+      ],
+      "id": 47
+    },
+    {
+      "name": "WING",
+      "altNames": "",
+      "counts": [
+        "&a1"
+      ],
+      "countsNumber": 3,
+      "sounds": "start on the balls of the feet with feet together, scrape both feet outwards and into the air, then spank both feet inwards at the same time and land on the balls of the feet with your feet together",
+      "altMoves": [
+        {
+          "name": "Backwards Wing",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "start on the balls of the feet with feet apart, scrape both feet inwards and into the air allowing one foot to cross in front of the other, then brush both feet outwards at the same time and land on the balls of the feet with your feet apart",
+          "altMoves": []
+        },
+        {
+          "name": "Click Wing",
+          "altNames": "",
+          "counts": [
+            "&a*1"
+          ],
+          "countsNumber": 4,
+          "sounds": "start on the balls of the feet with feet together, scrape both feet outwards and into the air, then spank both feet inwards at the same time and click them together in the air, then land on the balls of the feet with your feet apart",
+          "altMoves": []
+        },
+        {
+          "name": "Crossing Wing",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "start on the balls of the feet with feet together, scrape both feet outwards and into the air, then spank both feet inwards at the same time and land on the balls of the feet with your feet crossed",
+          "altMoves": []
+        },
+        {
+          "name": "Double Wing",
+          "altNames": [
+            "Separated",
+            "Staggered",
+            "Alternating"
+          ],
+          "counts": [
+            "&a***1"
+          ],
+          "countsNumber": 6,
+          "sounds": "start on the balls of the feet with feet together, scrape both feet outwards and into the air",
+          "altMoves": []
+        },
+        {
+          "name": "Five Count Wing",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 5,
+          "sounds": "start on the balls of the feet, scrape your feet outwards and into the air, then spank them in, then brush them out again, then spank them in again, then land on the balls of the feet",
+          "altMoves": []
+        },
+        {
+          "name": "Same Side Wing",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "start on the balls of the feet with feet together, scrape both feet outwards and into the air towards one side, then spank both feet inwards at the same time and land on the balls of the feet with your feet together",
+          "altMoves": []
+        },
+        {
+          "name": "Scissor Wing",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "start on the balls of the feet with one foot in front of the other, scrape the front foot backwards and into the air while at the same time scraping the back foot forwards and into the air, then spank the foot in front and brush the foot in back at the same time and land where you started",
+          "altMoves": []
+        },
+        {
+          "name": "Toe Stand Wing",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "start on your toes with feet together, scrape both toes outwards and into the air, then spank both toes inwards at the same time, then land on your toes with your feet together",
+          "altMoves": []
+        },
+        {
+          "name": "Wing Toe",
+          "altNames": "",
+          "counts": [
+            "&a*1"
+          ],
+          "countsNumber": 4,
+          "sounds": "start on the balls of the feet with feet together, scrape both feet outwards and into the air, then spank both feet inwards at the same time, hit the toes of both feet and land on the balls of the feet with your feet together",
+          "altMoves": []
+        },
+        {
+          "name": "SINGLE WING",
+          "altNames": [
+            "One Foot Wing"
+          ],
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "start on the ball of one foot, scrape your foot outwards and into the air, then spank it in and land on the ball of the foot",
+          "altMoves": []
+        },
+        {
+          "name": "Dwing",
+          "altNames": "",
+          "counts": [
+            "1e&"
+          ],
+          "countsNumber": 3,
+          "sounds": "dig/WING",
+          "altMoves": []
+        },
+        {
+          "name": "Five Count Single Wing",
+          "altNames": "",
+          "counts": [
+            "1e&a2"
+          ],
+          "countsNumber": 9,
+          "sounds": "start on the balls of the feet, scrape your feet outwards and into the air, then spank them in, then brush them out again, then spank them in again, then land on the balls of the feet",
+          "altMoves": []
+        },
+        {
+          "name": "Single Wing Heel Toe",
+          "altNames": "",
+          "counts": [
+            "1e&a2",
+            "&a**1"
+          ],
+          "countsNumber": 5,
+          "sounds": "start on the ball of one foot, scrape your foot outwards and into the air, then spank it in and land on the ball of the foot, heel, TOE",
+          "altMoves": []
+        },
+        {
+          "name": "Single Wing Toe",
+          "altNames": "",
+          "counts": [
+            "&a*1"
+          ],
+          "countsNumber": 4,
+          "sounds": "start on the ball of one foot, scrape your foot outwards and into the air, then spank it in and land on the ball of the foot, TOE",
+          "altMoves": []
+        },
+        {
+          "name": "Swing",
+          "altNames": "",
+          "counts": [
+            "1e&"
+          ],
+          "countsNumber": 3,
+          "sounds": "step/WING",
+          "altMoves": []
+        },
+        {
+          "name": "Twing",
+          "altNames": "",
+          "counts": [
+            "1e&"
+          ],
+          "countsNumber": 3,
+          "sounds": "toe/WING",
+          "altMoves": []
+        },
+        {
+          "name": "SWITCHING WING",
+          "altNames": "",
+          "counts": [
+            "&a1"
+          ],
+          "countsNumber": 3,
+          "sounds": "start on the ball of one foot, scrape your foot outwards and into the air, then spank it in and land on the ball of the other foot",
+          "altMoves": []
+        },
+        {
+          "name": "Switching Wing Toe",
+          "altNames": "",
+          "counts": [
+            "&a*1"
+          ],
+          "countsNumber": 4,
+          "sounds": "start on the ball of one foot, scrape your foot outwards and into the air, then spank it in and land on the ball of the other foot, toe",
+          "altMoves": []
+        }
+      ],
+      "id": 48
+    }
+  ]
+}

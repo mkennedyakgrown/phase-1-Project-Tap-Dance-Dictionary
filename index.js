@@ -1,5 +1,7 @@
-const database = 'http://localhost:3000/moves';
-const usersDb = 'http://localhost:3000/users';
+// const database = 'http://localhost:3000/moves';
+// const usersDb = 'http://localhost:3000/users';
+const database = 'https://mkennedyakgrown.github.io/phase-1-Project-Tap-Dance-Dictionary/moves.json';
+const usersDb = 'https://mkennedyakgrown.github.io/phase-1-Project-Tap-Dance-Dictionary/users.json';
 const backgroundUrl = 'img/close-up-dancer-wearing-tap-shoes.jpg';
 const movesList = document.getElementById('moves-list');
 const userList = document.getElementById('user-list');
