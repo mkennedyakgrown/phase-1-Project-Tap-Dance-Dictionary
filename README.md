@@ -16,7 +16,9 @@ Explore, create, and enjoy!
 
 ## Installation
 
-No installation is needed. This is an interactive web app.
+<!-- No installation is needed. This is an interactive web app. -->
+
+For now, this requires loading the project's db.json database, and using json-server from your local Terminal or Command Line. This section will be updated when database hosting has been brought online and needs no local server.
 
 ## Searching
 
