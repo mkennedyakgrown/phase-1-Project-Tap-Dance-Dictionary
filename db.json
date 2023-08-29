@@ -3513,11 +3513,15 @@
           "name": "Combo 3",
           "moves": [
             "BACK ESSENCE",
+            "Bombershay Broadway",
+            "Brittanyshay",
+            "BOMBERSHAY",
+            "Bombershay Broadway",
             "Double Back Essence",
             "BOMBERSHAY",
             "BOMBERSHAY",
-            "Bombershay Broadway",
-            "Brittanyshay"
+            "ALEXANDER",
+            "BACK ESSENCE"
           ]
         },
         {
@@ -3545,6 +3549,36 @@
             "BRUSH",
             "Brush Back",
             "BUFFALO"
+          ]
+        },
+        {
+          "name": "Get a new Step",
+          "moves": [
+            "Double Back Essence",
+            "BOMBERSHAY",
+            "Bombershay Broadway",
+            "Bombershay Toe",
+            "Brittanyshay"
+          ]
+        },
+        {
+          "name": "Combo NEW",
+          "moves": [
+            "ALEXANDER",
+            "Alexander Clunk",
+            "BACK ESSENCE",
+            "Double Back Essence",
+            "BOMBERSHAY"
+          ]
+        },
+        {
+          "name": "Combo 5",
+          "moves": [
+            "ALEXANDER",
+            "Alexander Clunk",
+            "BACK ESSENCE",
+            "Double Back Essence",
+            "BOMBERSHAY"
           ]
         }
       ]
