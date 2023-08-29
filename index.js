@@ -30,6 +30,7 @@ function loadTapMoves(url) {
     fetch(url)
     .then(res => res.json())
     .then(json => {
+        debugger;
         json.forEach(move => {
             loadOneTapMove(move)
             if (move.altMoves !== []) {

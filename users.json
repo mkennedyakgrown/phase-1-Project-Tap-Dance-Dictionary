@@ -1,126 +1,124 @@
-{
-  "users": [
-    {
-      "id": 1,
-      "name": "Matthew",
-      "combinations": [
-        {
-          "name": "Combo 1",
-          "moves": [
-            "BACK ESSENCE",
-            "Double Back Essence",
-            "Alexander Clunk",
-            "Bombershay Toe",
-            "Bombershay Toe",
-            "Drawbershay",
-            "BROADWAY"
-          ]
-        },
-        {
-          "name": "Combo 2",
-          "moves": [
-            "Alexander Clunk",
-            "Double Back Essence",
-            "Drawbershay",
-            "Double Back Essence",
-            "BOMBERSHAY",
-            "Bombershay Toe",
-            "Jackhammer",
-            "Jinnyshay",
-            "BACK ESSENCE"
-          ]
-        },
-        {
-          "name": "Combo 3",
-          "moves": [
-            "BACK ESSENCE",
-            "Bombershay Broadway",
-            "Brittanyshay",
-            "BOMBERSHAY",
-            "Bombershay Broadway",
-            "Double Back Essence",
-            "BOMBERSHAY",
-            "BOMBERSHAY",
-            "ALEXANDER",
-            "BACK ESSENCE"
-          ]
-        },
-        {
-          "name": "Shuffles Combo",
-          "moves": [
-            "Hop Shuffle",
-            "Hop Shuffle",
-            "Hop Shuffle",
-            "SPANK",
-            "SHUFFLE BALL CHANGE",
-            "Shuffle Heel",
-            "IRISH"
-          ]
-        },
-        {
-          "name": "Shuffles Combo 1",
-          "moves": [
-            "Hop Shuffle",
-            "Hop Shuffle",
-            "Hop Shuffle",
-            "SPANK",
-            "SHUFFLE BALL CHANGE",
-            "Shuffle Heel",
-            "IRISH",
-            "BRUSH",
-            "Brush Back",
-            "BUFFALO"
-          ]
-        },
-        {
-          "name": "Get a new Step",
-          "moves": [
-            "Double Back Essence",
-            "BOMBERSHAY",
-            "Bombershay Broadway",
-            "Bombershay Toe",
-            "Brittanyshay"
-          ]
-        },
-        {
-          "name": "Combo NEW",
-          "moves": [
-            "ALEXANDER",
-            "Alexander Clunk",
-            "BACK ESSENCE",
-            "Double Back Essence",
-            "BOMBERSHAY"
-          ]
-        },
-        {
-          "name": "Combo 5",
-          "moves": [
-            "ALEXANDER",
-            "Alexander Clunk",
-            "BACK ESSENCE",
-            "Double Back Essence",
-            "BOMBERSHAY"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Mari",
-      "combinations": [
-        {
-          "name": "Combo 1",
-          "moves": [
-            "Alexander Clunk",
-            "BACK ESSENCE",
-            "Double Back Essence",
-            "Double Back Essence",
-            "Brittanyshay",
-            "Drawman",
-            "Maxie Ford Pullback"
-          ]
-        }
-      ],
-      "id": 2
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "name": "Matthew",
+    "combinations": [
+      {
+        "name": "Combo 1",
+        "moves": [
+          "BACK ESSENCE",
+          "Double Back Essence",
+          "Alexander Clunk",
+          "Bombershay Toe",
+          "Bombershay Toe",
+          "Drawbershay",
+          "BROADWAY"
+        ]
+      },
+      {
+        "name": "Combo 2",
+        "moves": [
+          "Alexander Clunk",
+          "Double Back Essence",
+          "Drawbershay",
+          "Double Back Essence",
+          "BOMBERSHAY",
+          "Bombershay Toe",
+          "Jackhammer",
+          "Jinnyshay",
+          "BACK ESSENCE"
+        ]
+      },
+      {
+        "name": "Combo 3",
+        "moves": [
+          "BACK ESSENCE",
+          "Bombershay Broadway",
+          "Brittanyshay",
+          "BOMBERSHAY",
+          "Bombershay Broadway",
+          "Double Back Essence",
+          "BOMBERSHAY",
+          "BOMBERSHAY",
+          "ALEXANDER",
+          "BACK ESSENCE"
+        ]
+      },
+      {
+        "name": "Shuffles Combo",
+        "moves": [
+          "Hop Shuffle",
+          "Hop Shuffle",
+          "Hop Shuffle",
+          "SPANK",
+          "SHUFFLE BALL CHANGE",
+          "Shuffle Heel",
+          "IRISH"
+        ]
+      },
+      {
+        "name": "Shuffles Combo 1",
+        "moves": [
+          "Hop Shuffle",
+          "Hop Shuffle",
+          "Hop Shuffle",
+          "SPANK",
+          "SHUFFLE BALL CHANGE",
+          "Shuffle Heel",
+          "IRISH",
+          "BRUSH",
+          "Brush Back",
+          "BUFFALO"
+        ]
+      },
+      {
+        "name": "Get a new Step",
+        "moves": [
+          "Double Back Essence",
+          "BOMBERSHAY",
+          "Bombershay Broadway",
+          "Bombershay Toe",
+          "Brittanyshay"
+        ]
+      },
+      {
+        "name": "Combo NEW",
+        "moves": [
+          "ALEXANDER",
+          "Alexander Clunk",
+          "BACK ESSENCE",
+          "Double Back Essence",
+          "BOMBERSHAY"
+        ]
+      },
+      {
+        "name": "Combo 5",
+        "moves": [
+          "ALEXANDER",
+          "Alexander Clunk",
+          "BACK ESSENCE",
+          "Double Back Essence",
+          "BOMBERSHAY"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mari",
+    "combinations": [
+      {
+        "name": "Combo 1",
+        "moves": [
+          "Alexander Clunk",
+          "BACK ESSENCE",
+          "Double Back Essence",
+          "Double Back Essence",
+          "Brittanyshay",
+          "Drawman",
+          "Maxie Ford Pullback"
+        ]
+      }
+    ],
+    "id": 2
+  }
+]
